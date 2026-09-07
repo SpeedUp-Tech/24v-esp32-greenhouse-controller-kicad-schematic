@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "project": "24v-esp32-greenhouse-controller-kicad-schematic",
+  "release_version": "v0.1.0",
+  "generated_date": "2026-09-07",
+  "publication_ready_at_prepare_time": true,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 88,
+      "sha256": "e96ec9eaf22fa8fb5aed76e84fdd294b4c2955cb1eaa35b483e87284aa8c2cd1"
+    },
+    {
+      "path": "ENGINEERING_LIMITATIONS.md",
+      "bytes": 2391,
+      "sha256": "1d90f5ccd01ca3f64d41fbbf25a6e7b47f5743e7db1929beea718d6cdd55928d"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    {
+      "path": "LICENSES/CERN-OHL-P-2.0.txt",
+      "bytes": 8852,
+      "sha256": "6e471d647db50527d0c75ee5f1a55a74012ab177c73282bef0bdc7f6562b7ded"
+    },
+    {
+      "path": "LICENSE_SCOPE.md",
+      "bytes": 1054,
+      "sha256": "426be7eeea0d84e5228aed6582ae694e43b1c32ea77d3981fb1ab2e3fe0309dc"
+    },
+    {
+      "path": "PRODUCT_REQUIREMENT.md",
+      "bytes": 371,
+      "sha256": "5b81789afa58a9d7994f5e4415e04a0d450529c5a64a325618e8ee45757137ac"
+    },
+    {
+      "path": "PUBLISHING_CHECKLIST.md",
+      "bytes": 752,
+      "sha256": "8d25d8b5d3a3b233bd8b315907d50c2561d01012886e9b5915cde64c9c192696"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6248,
+      "sha256": "fe1cf9f7517ef93b78194e43d408642dd70e92ce096d94bddd4f95436a9d662f"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1296,
+      "sha256": "8cd540efc3baf21159578c5bc663b590173be39c06e6e709c226ab04539e201b"
+    },
+    {
+      "path": "bom/BillOfMaterials.csv",
+      "bytes": 3117,
+      "sha256": "3ec71f26d4f9247e997f1f8432273620cfaa5e7ba7dd598d5fea5c36d3b14af4"
+    },
+    {
+      "path": "evidence/block-diagram.png",
+      "bytes": 347228,
+      "sha256": "1b153614a65327f3e8b6a1dee18e173b1e598b9c17bec35c96d3b3d53ccdd7d0"
+    },
+    {
+      "path": "evidence/lighting-schematic.png",
+      "bytes": 142533,
+      "sha256": "3742c39995ceee97b6baa0d1074bf21c41bb87e9bd55f1cecb434f0c5477d8fb"
+    },
+    {
+      "path": "evidence/power-schematic.png",
+      "bytes": 174702,
+      "sha256": "9934d1675dff4a86416c5029a0f2eda7c0d0779c9b3c9532494f0f3761daad54"
+    },
+    {
+      "path": "evidence/product-requirement.png",
+      "bytes": 187243,
+      "sha256": "76ffd9cd61ddb9e21b48ffae8cc5c8243dbfd10f370bc93f79c48755d0a6d03f"
+    },
+    {
+      "path": "evidence/sensor-afe-schematic.png",
+      "bytes": 79954,
+      "sha256": "b987ebbe655e88f04196e0924a4b26b3b53822e2fe0a03538bcd9f244b200352"
+    },
+    {
+      "path": "hardware/24V_Greenhouse_Controller.kicad_pro",
+      "bytes": 174,
+      "sha256": "8b05e9690b9132719d7be8d3f9cab49434c7ff75ddb79f5e800bd03bbdb59f54"
+    },
+    {
+      "path": "hardware/24V_Greenhouse_Controller.kicad_sch",
+      "bytes": 31837,
+      "sha256": "fe0e89009f0c32a331139cce3fd61fc8a0dc1e84b34e9b0303502b3fa3608443"
+    },
+    {
+      "path": "hardware/modules/ACTUATORS.kicad_sch",
+      "bytes": 204066,
+      "sha256": "d82e9b6dff940d95eb1ca237a298aea347e9b70066a5422fe2f0dbb6e01713a7"
+    },
+    {
+      "path": "hardware/modules/CONTROL.kicad_sch",
+      "bytes": 203376,
+      "sha256": "e385b84dd7fb2f62d26d79362cb8208009ed7fff447863d2f9f52a755781b915"
+    },
+    {
+      "path": "hardware/modules/LIGHTING.kicad_sch",
+      "bytes": 88138,
+      "sha256": "1191a6a59d9dda5d7127455351d5041627771bc6ba5fa95c9f3c5e8e15b20df7"
+    },
+    {
+      "path": "hardware/modules/POWER.kicad_sch",
+      "bytes": 85773,
+      "sha256": "19533d48120d237ab1cb14a0985a6f3ce298f438ab85023e24477a447a406d13"
+    },
+    {
+      "path": "hardware/modules/SENSOR_AFE.kicad_sch",
+      "bytes": 253143,
+      "sha256": "3883e055eba908325897dbab6cebe09ef834c0d49a5d4d593c7f898f2ba7b414"
+    },
+    {
+      "path": "provenance/THIRD_PARTY_NOTICES.md",
+      "bytes": 1296,
+      "sha256": "8cd540efc3baf21159578c5bc663b590173be39c06e6e709c226ab04539e201b"
+    },
+    {
+      "path": "provenance/sources.csv",
+      "bytes": 1342,
+      "sha256": "d9c8f127c84997a81573ffcae511728fdac92be2a20ae382d2e4a7cce085525d"
+    }
+  ]
+}

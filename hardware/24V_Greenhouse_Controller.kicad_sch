@@ -1,0 +1,531 @@
+(kicad_sch (version 20250114) (generator "SpeedUp AI") (generator_version "9.0") (uuid 583c19e2-ed52-4b4e-be60-aa4ae6987309) (paper "A4") (title_block (title "24V_Greenhouse_Controller") (date "2026-09-04") (rev "") (company "") (comment 1 "") (comment 2 "") (comment 3 "") (comment 4 "")) (lib_symbols) (sheet (at 39.37 39.37) (size 49.53 39.37) (stroke (width 0) (type solid) (color 0 0 0 0)) (fill (color 0 0 0 0.0)) (uuid cffa5050-0140-4762-b07d-a735984d664a) 
+
+(property "Sheet name" "POWER" (id 0) (at 39.37 36.87 0) (effects (font (size 1.27 1.27)) (justify left bottom))) 
+
+(property "Sheet file" "modules/POWER.kicad_sch" (id 1) (at 39.37 79.24 0) (effects (font (size 1.27 1.27)) (justify left top) (hide yes))) (pin "24V_PROT" bidirectional (at 88.9 49.53 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid 1ebcbbc4-4c59-4b85-8e51-074d9d8793b8)) (pin "VIN_24V" bidirectional (at 88.9 54.61 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid 10c0c179-4b8b-4265-96d3-97cc3f47e0a5)) (pin "5V" bidirectional (at 39.37 49.53 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid 9e0dce8e-63b5-4902-b0e6-32e4f5bfa2c8)) (instances (project "24V_Greenhouse_Controller" (path "/583c19e2-ed52-4b4e-be60-aa4ae6987309" (page "2"))))) 
+
+(wire (pts 
+
+(xy 39.37 49.53) 
+
+(xy 36.83 49.53)) (stroke (width 0.254) (type default)) (uuid "adcfd077-0a82-4749-82d1-a611ba2af825")) 
+
+(label "24V_PROT" (at 36.83 49.53 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid "209d852c-496a-4920-9dda-abd99df05ba9")) 
+
+(wire (pts 
+
+(xy 39.37 54.61) 
+
+(xy 36.83 54.61)) (stroke (width 0.254) (type default)) (uuid "92908870-8105-4452-b8cf-558bb2915bf1")) 
+
+(global_label "VIN_24V" (shape bidirectional) (at 36.83 54.61 180) (effects (font (size 1.27 1.27)) (justify right)) (uuid "952dbd9b-42a5-4a46-a6f0-fda203b7412c") 
+
+(property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(wire (pts 
+
+(xy 88.9 49.53) 
+
+(xy 91.44 49.53)) (stroke (width 0.254) (type default)) (uuid "5462e222-351c-4169-b265-25e0b3aaf407")) 
+
+(label "5V" (at 91.44 49.53 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left)) (uuid "8637fbd4-190d-485e-95a7-aceb729a9a70")) (sheet (at 119.38 39.37) (size 49.53 69.85) (stroke (width 0) (type solid) (color 0 0 0 0)) (fill (color 0 0 0 0.0)) (uuid bb2668f0-4376-461a-a4f1-c1fcc9f11046) 
+
+(property "Sheet name" "ACTUATORS" (id 0) (at 119.38 36.87 0) (effects (font (size 1.27 1.27)) (justify left bottom))) 
+
+(property "Sheet file" "modules/ACTUATORS.kicad_sch" (id 1) (at 119.38 109.72 0) (effects (font (size 1.27 1.27)) (justify left top) (hide yes))) (pin "24V_PROT" bidirectional (at 168.91 49.53 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid 703a86b7-e9bf-460a-8afa-446d7a15601a)) (pin "3V3" bidirectional (at 168.91 54.61 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid ab9de23f-8bfa-48e9-8ff3-64e4380966f9)) (pin "5V" bidirectional (at 168.91 59.69 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid ea9f5333-8e73-4ef0-a026-88f87562486f)) (pin "AUX_CMD" input (at 168.91 64.77 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid c1a87e1c-536a-419e-aebe-772ca59f6320)) (pin "NUTRIENT_A_CMD" input (at 168.91 69.85 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid 8e083571-d428-496d-94c6-142651270113)) (pin "NUTRIENT_B_CMD" input (at 168.91 74.93 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid 4f8e513d-8f96-4c2b-afa6-72dad7c4bfd9)) (pin "VALVE_CMD" input (at 168.91 78.74 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid 43c30f5a-97e1-422a-8f71-7ca732818af1)) (pin "WATER_CMD" input (at 168.91 83.82000000000001 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid 3a5a1e05-ab80-4f20-89df-fd08b09b570e)) (pin "ACT_FAULT_N" output (at 119.38 49.53 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid c7a449f3-56d1-49bc-bad8-bca94f237451)) (pin "AUX_24V_OUT" bidirectional (at 119.38 54.61 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid a5269ad7-30ff-443b-8662-133374906032)) (pin "AUX_RETURN" output (at 119.38 59.69 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid 339dcd65-b82c-4947-9ac1-3504dfa9a416)) (pin "NUTRIENT_A_24V_OUT" bidirectional (at 119.38 64.77 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid 4e1c3194-6ec8-447d-bc4e-e899579ea11d)) (pin "NUTRIENT_A_RETURN" output (at 119.38 69.85 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid 07489558-0956-493c-be08-0aaf06bce96f)) (pin "NUTRIENT_B_24V_OUT" bidirectional (at 119.38 74.93 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid 0b0d0bfb-5a5a-49ca-bc3b-0b1e202b4a9c)) (pin "NUTRIENT_B_RETURN" output (at 119.38 78.74 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid 97fd3fdb-b8f1-4f25-af2b-8c1979bec00d)) (pin "VALVE_24V_OUT" bidirectional (at 119.38 83.82000000000001 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid b7fb2b5e-ae32-481d-9d7d-f75f2d8eb25a)) (pin "VALVE_RETURN" output (at 119.38 88.9 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid c93df760-fb2d-4a40-a1d4-a018baa0ab6e)) (pin "WATER_24V_OUT" bidirectional (at 119.38 93.98 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid 814322eb-83b1-4ea4-bb52-dc05c3c643a0)) (pin "WATER_RETURN" output (at 119.38 99.06 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid c1851ea7-d531-4049-901d-e5b9d348bed7)) (instances (project "24V_Greenhouse_Controller" (path "/583c19e2-ed52-4b4e-be60-aa4ae6987309" (page "3"))))) 
+
+(wire (pts 
+
+(xy 119.38 49.53) 
+
+(xy 116.84 49.53)) (stroke (width 0.254) (type default)) (uuid "6d5b0061-2d02-4c29-b199-7b4012c91f44")) 
+
+(label "24V_PROT" (at 116.84 49.53 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid "677a6885-a2f4-4341-a27b-ddf1ae089959")) 
+
+(wire (pts 
+
+(xy 119.38 54.61) 
+
+(xy 116.84 54.61)) (stroke (width 0.254) (type default)) (uuid "ac139869-83ac-40ea-a23f-43b4917277d3")) 
+
+(label "3V3" (at 116.84 54.61 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid "990dc7a4-2f81-4dde-bab7-b216c36b4993")) 
+
+(wire (pts 
+
+(xy 119.38 59.69) 
+
+(xy 116.84 59.69)) (stroke (width 0.254) (type default)) (uuid "8be93240-e775-400e-83e9-df17382ec97a")) 
+
+(label "5V" (at 116.84 59.69 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid "f3cf3238-e93b-4970-9c78-2cb68162bf3e")) 
+
+(wire (pts 
+
+(xy 119.38 64.77) 
+
+(xy 116.84 64.77)) (stroke (width 0.254) (type default)) (uuid "be616454-f672-4cc0-b11c-3008e6b8458a")) 
+
+(label "AUX_CMD" (at 116.84 64.77 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid "a2d14465-f5ab-41f2-bcfe-e4abb3768a6d")) 
+
+(wire (pts 
+
+(xy 119.38 69.85) 
+
+(xy 116.84 69.85)) (stroke (width 0.254) (type default)) (uuid "46d26de8-73a2-4d2c-b02d-9199396dd573")) 
+
+(label "NUTRIENT_A_CMD" (at 116.84 69.85 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid "9051d491-5095-441a-bba0-07791cef489a")) 
+
+(wire (pts 
+
+(xy 119.38 74.93) 
+
+(xy 116.84 74.93)) (stroke (width 0.254) (type default)) (uuid "00bbdd87-b44a-4cc9-917f-2549d8bcff59")) 
+
+(label "NUTRIENT_B_CMD" (at 116.84 74.93 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid "744140c3-e29d-43a2-9768-41b417439778")) 
+
+(wire (pts 
+
+(xy 119.38 78.74) 
+
+(xy 116.84 78.74)) (stroke (width 0.254) (type default)) (uuid "99ddbb39-9171-4a1f-9c24-7902ec2ef338")) 
+
+(label "VALVE_CMD" (at 116.84 78.74 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid "25a0dfa1-49e7-4ad4-9030-6e39b381e31b")) 
+
+(wire (pts 
+
+(xy 119.38 83.82) 
+
+(xy 116.84 83.82)) (stroke (width 0.254) (type default)) (uuid "a7f343d1-5258-4719-8a78-1ed2c13c0214")) 
+
+(label "WATER_CMD" (at 116.84 83.82000000000001 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid "b7d39b32-7063-4398-ace7-0ecbf91d8c5e")) 
+
+(wire (pts 
+
+(xy 168.91 49.53) 
+
+(xy 171.45 49.53)) (stroke (width 0.254) (type default)) (uuid "6f3cb3e1-bcc0-4479-b088-8b9a3267d644")) 
+
+(label "ACT_FAULT_N" (at 171.45 49.53 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left)) (uuid "d3eeb0a4-11ca-4e03-ad40-f95f83d65b95")) 
+
+(wire (pts 
+
+(xy 168.91 54.61) 
+
+(xy 171.45 54.61)) (stroke (width 0.254) (type default)) (uuid "7de0696e-ad00-4a1a-bf8e-85c9099ceef8")) 
+
+(global_label "AUX_24V_OUT" (shape bidirectional) (at 171.45 54.61 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "55c0da05-b7dc-40d4-a83f-5d364104de8b") 
+
+(property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(wire (pts 
+
+(xy 168.91 59.69) 
+
+(xy 171.45 59.69)) (stroke (width 0.254) (type default)) (uuid "f020bfae-7523-4587-9541-5cd3fc85fbc4")) 
+
+(global_label "AUX_RETURN" (shape bidirectional) (at 171.45 59.69 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "ce9a7ab1-c8c3-4a04-8b75-2eb189fc1db2") 
+
+(property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(wire (pts 
+
+(xy 168.91 64.77) 
+
+(xy 171.45 64.77)) (stroke (width 0.254) (type default)) (uuid "64aabf04-8d1d-44f5-bcd5-2e979056b251")) 
+
+(global_label "NUTRIENT_A_24V_OUT" (shape bidirectional) (at 171.45 64.77 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "d70e4b6a-4be2-40be-b1c6-6fd94bf72f19") 
+
+(property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(wire (pts 
+
+(xy 168.91 69.85) 
+
+(xy 171.45 69.85)) (stroke (width 0.254) (type default)) (uuid "0cad8f6a-bdae-4623-8ca0-696c6bccdbe6")) 
+
+(global_label "NUTRIENT_A_RETURN" (shape bidirectional) (at 171.45 69.85 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "8e6a0244-2d0e-4634-b1f0-f966901cbf0b") 
+
+(property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(wire (pts 
+
+(xy 168.91 74.93) 
+
+(xy 171.45 74.93)) (stroke (width 0.254) (type default)) (uuid "7e0c743d-fe32-4760-a588-64e3c33f19ef")) 
+
+(global_label "NUTRIENT_B_24V_OUT" (shape bidirectional) (at 171.45 74.93 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "a29eeb76-c7ec-4266-bf4f-a90de25ac6c0") 
+
+(property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(wire (pts 
+
+(xy 168.91 78.74) 
+
+(xy 171.45 78.74)) (stroke (width 0.254) (type default)) (uuid "7344504a-d35d-4e7c-9455-19fff582e6e9")) 
+
+(global_label "NUTRIENT_B_RETURN" (shape bidirectional) (at 171.45 78.74 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "6fc08874-91e2-48c2-9e85-588dbc3cda8d") 
+
+(property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(wire (pts 
+
+(xy 168.91 83.82) 
+
+(xy 171.45 83.82)) (stroke (width 0.254) (type default)) (uuid "97eb9bc1-3d12-402f-a35a-d5388c05f281")) 
+
+(global_label "VALVE_24V_OUT" (shape bidirectional) (at 171.45 83.82000000000001 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "127e28a0-20c2-4290-9e13-e314a3e0b019") 
+
+(property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(wire (pts 
+
+(xy 168.91 88.9) 
+
+(xy 171.45 88.9)) (stroke (width 0.254) (type default)) (uuid "68c42087-7b46-40d5-a17c-fca55609f4aa")) 
+
+(global_label "VALVE_RETURN" (shape bidirectional) (at 171.45 88.9 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "9e569407-e0b2-4639-964e-8c118467dba9") 
+
+(property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(wire (pts 
+
+(xy 168.91 93.98) 
+
+(xy 171.45 93.98)) (stroke (width 0.254) (type default)) (uuid "2f3098cb-7a55-42ed-9e67-50f1730e6692")) 
+
+(global_label "WATER_24V_OUT" (shape bidirectional) (at 171.45 93.98 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "99a84b5e-4ba0-42f9-82c7-571d887e6145") 
+
+(property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(wire (pts 
+
+(xy 168.91 99.06) 
+
+(xy 171.45 99.06)) (stroke (width 0.254) (type default)) (uuid "02cca1c5-36a6-497a-9969-2b07fe9bca59")) 
+
+(global_label "WATER_RETURN" (shape bidirectional) (at 171.45 99.06 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "07925b80-89ad-4ec0-9eaa-82c827f9783d") 
+
+(property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))) (sheet (at 199.39000000000001 39.37) (size 49.53 64.77) (stroke (width 0) (type solid) (color 0 0 0 0)) (fill (color 0 0 0 0.0)) (uuid 90154265-7125-4330-b65b-eb189d4de21f) 
+
+(property "Sheet name" "CONTROL" (id 0) (at 199.39000000000001 36.87 0) (effects (font (size 1.27 1.27)) (justify left bottom))) 
+
+(property "Sheet file" "modules/CONTROL.kicad_sch" (id 1) (at 199.39000000000001 104.63999999999999 0) (effects (font (size 1.27 1.27)) (justify left top) (hide yes))) (pin "3V3" bidirectional (at 248.92000000000002 49.53 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid 833019e5-3caf-4eb5-bc4b-8643b81b4964)) (pin "5V" bidirectional (at 248.92000000000002 54.61 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid ec5611c5-705a-413e-a0ee-42b82bb0ca61)) (pin "ACT_FAULT_N" input (at 248.92000000000002 59.69 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid aab4ad36-cd57-49d8-80f5-080203f5344f)) (pin "LEVEL_HIGH_N" input (at 248.92000000000002 64.77 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid e37098fa-cf8d-46b8-ac0f-4ce2a00c3214)) (pin "LEVEL_LOW_N" input (at 248.92000000000002 69.85 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid eaa77e35-21ae-4093-a43b-f2e6d3b07e8c)) (pin "LIGHT_FAULT_N" input (at 248.92000000000002 74.93 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid 9b0139e0-a849-4943-aaf4-f6c6ac2be542)) (pin "SENSOR_ALERT_N" input (at 248.92000000000002 78.74 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid ea88e065-5360-4464-ad79-e37eac4cbf28)) (pin "USB_DM" bidirectional (at 248.92000000000002 83.82000000000001 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid 82e6d326-513a-46aa-92be-37040f911a8a)) (pin "USB_DP" bidirectional (at 248.92000000000002 88.9 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid c2fadb33-af4e-4b4d-85cf-0602e2eb3e49)) (pin "USB_VBUS" bidirectional (at 248.92000000000002 93.98 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid 0cf9a44c-6237-4721-be81-083121729469)) (pin "AUX_CMD" output (at 199.39000000000001 49.53 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid 3a7222a9-013d-4b41-97d2-1f6289d11cd6)) (pin "I2C0_SCL" bidirectional (at 199.39000000000001 54.61 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid 486ae1b1-c0e9-477a-b863-10e0517770de)) (pin "I2C0_SDA" bidirectional (at 199.39000000000001 59.69 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid 13c367b5-9ea5-49f5-b785-065df7167318)) (pin "LIGHT_PWM" output (at 199.39000000000001 64.77 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid 6c47fd6e-124f-4243-8d6c-fada403bb763)) (pin "NUTRIENT_A_CMD" output (at 199.39000000000001 69.85 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid 84281b76-04e3-4ccb-8545-47d9181df544)) (pin "NUTRIENT_B_CMD" output (at 199.39000000000001 74.93 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid 5babfcdc-13ca-4bef-9740-3ecba0b2efaf)) (pin "TEMP_1WIRE" bidirectional (at 199.39000000000001 78.74 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid f2418d6c-3374-42a2-ab5b-3c2e740b1ab8)) (pin "VALVE_CMD" output (at 199.39000000000001 83.82000000000001 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid 9fdd6b9f-1078-4ed2-9a31-c781f4ced403)) (pin "WATER_CMD" output (at 199.39000000000001 88.9 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid b5b856ab-b380-457c-a10c-73a4a7328b37)) (instances (project "24V_Greenhouse_Controller" (path "/583c19e2-ed52-4b4e-be60-aa4ae6987309" (page "4"))))) 
+
+(wire (pts 
+
+(xy 199.39 49.53) 
+
+(xy 196.85 49.53)) (stroke (width 0.254) (type default)) (uuid "32389ef9-304e-41d6-8863-f174494f7422")) 
+
+(label "3V3" (at 196.85 49.53 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid "2087eb9c-727e-4c42-a619-7e2549db53cb")) 
+
+(wire (pts 
+
+(xy 199.39 54.61) 
+
+(xy 196.85 54.61)) (stroke (width 0.254) (type default)) (uuid "77d711bd-2c1b-46ee-8bf1-1cd99cd24614")) 
+
+(label "5V" (at 196.85 54.61 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid "6f2509f1-5084-43ea-a459-4b3534f786a8")) 
+
+(wire (pts 
+
+(xy 199.39 59.69) 
+
+(xy 196.85 59.69)) (stroke (width 0.254) (type default)) (uuid "4724d314-977e-42f3-9908-f28151723606")) 
+
+(label "ACT_FAULT_N" (at 196.85 59.69 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid "b8581570-fa8c-43fb-be31-97c1c5913bd9")) 
+
+(wire (pts 
+
+(xy 199.39 64.77) 
+
+(xy 196.85 64.77)) (stroke (width 0.254) (type default)) (uuid "729bbff7-5686-40f7-b8af-c0246fb5a0db")) 
+
+(label "LEVEL_HIGH_N" (at 196.85 64.77 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid "ca0d3424-5f86-42fc-8cca-ece28202d82b")) 
+
+(wire (pts 
+
+(xy 199.39 69.85) 
+
+(xy 196.85 69.85)) (stroke (width 0.254) (type default)) (uuid "6bf652c3-55de-4f23-989e-8d0779561eb5")) 
+
+(label "LEVEL_LOW_N" (at 196.85 69.85 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid "612cfc77-9786-4211-bcb0-20658c732d0a")) 
+
+(wire (pts 
+
+(xy 199.39 74.93) 
+
+(xy 196.85 74.93)) (stroke (width 0.254) (type default)) (uuid "149fa2f6-ab71-475b-b6f9-fd644eccbe5f")) 
+
+(label "LIGHT_FAULT_N" (at 196.85 74.93 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid "df9bebd7-7946-4967-9624-1c0010ce0084")) 
+
+(wire (pts 
+
+(xy 199.39 78.74) 
+
+(xy 196.85 78.74)) (stroke (width 0.254) (type default)) (uuid "943532ad-27b0-42da-acf5-52ad041b54ca")) 
+
+(label "SENSOR_ALERT_N" (at 196.85 78.74 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid "282e3894-8fe3-431a-bfb4-2689c3a11360")) 
+
+(wire (pts 
+
+(xy 199.39 83.82) 
+
+(xy 196.85 83.82)) (stroke (width 0.254) (type default)) (uuid "f6fabfb6-bb6c-4d17-8b77-ee580cac3d49")) 
+
+(global_label "USB_DM" (shape bidirectional) (at 196.85 83.82000000000001 180) (effects (font (size 1.27 1.27)) (justify right)) (uuid "b71a282c-67a0-4eb1-8cdc-5845d6817c2f") 
+
+(property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(wire (pts 
+
+(xy 199.39 88.9) 
+
+(xy 196.85 88.9)) (stroke (width 0.254) (type default)) (uuid "408a6598-7766-4010-a7b6-a143d5e7cba6")) 
+
+(global_label "USB_DP" (shape bidirectional) (at 196.85 88.9 180) (effects (font (size 1.27 1.27)) (justify right)) (uuid "67c45dc7-cd4b-410a-87be-7506d6b1ae1a") 
+
+(property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(wire (pts 
+
+(xy 199.39 93.98) 
+
+(xy 196.85 93.98)) (stroke (width 0.254) (type default)) (uuid "5afcce0b-8ca9-42ac-a175-c04a6f2cb95c")) 
+
+(global_label "USB_VBUS" (shape bidirectional) (at 196.85 93.98 180) (effects (font (size 1.27 1.27)) (justify right)) (uuid "bb23cd31-9720-4dba-b55f-cd59aba6c6ff") 
+
+(property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(wire (pts 
+
+(xy 248.92 49.53) 
+
+(xy 251.46 49.53)) (stroke (width 0.254) (type default)) (uuid "dd96832e-0c6e-4c67-b202-2f2bc5232fc2")) 
+
+(label "AUX_CMD" (at 251.46 49.53 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left)) (uuid "10051d4f-f8f0-4cb3-ac62-8901a4a7b96a")) 
+
+(wire (pts 
+
+(xy 248.92 54.61) 
+
+(xy 251.46 54.61)) (stroke (width 0.254) (type default)) (uuid "79269fe0-0438-4833-8e70-dfcf0fdc35f1")) 
+
+(label "I2C0_SCL" (at 251.46 54.61 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left)) (uuid "8572b341-e3e0-4801-89de-2acf9052f511")) 
+
+(wire (pts 
+
+(xy 248.92 59.69) 
+
+(xy 251.46 59.69)) (stroke (width 0.254) (type default)) (uuid "7dd0ec5d-024d-4296-ae88-a508046dfa44")) 
+
+(label "I2C0_SDA" (at 251.46 59.69 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left)) (uuid "ae38f590-a8a2-4351-b231-10f4a6148149")) 
+
+(wire (pts 
+
+(xy 248.92 64.77) 
+
+(xy 251.46 64.77)) (stroke (width 0.254) (type default)) (uuid "6be642fc-45bd-4bca-be08-35972f511ee7")) 
+
+(label "LIGHT_PWM" (at 251.46 64.77 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left)) (uuid "905f0ea8-20bd-43f1-80e6-f50f6dfc0762")) 
+
+(wire (pts 
+
+(xy 248.92 69.85) 
+
+(xy 251.46 69.85)) (stroke (width 0.254) (type default)) (uuid "0e420275-2f3c-4e64-975c-7d228d8c7dd9")) 
+
+(label "NUTRIENT_A_CMD" (at 251.46 69.85 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left)) (uuid "80f29616-2aa1-47c0-bcb3-dc491b6f932b")) 
+
+(wire (pts 
+
+(xy 248.92 74.93) 
+
+(xy 251.46 74.93)) (stroke (width 0.254) (type default)) (uuid "55589020-958f-44ae-a801-21e69abf45d1")) 
+
+(label "NUTRIENT_B_CMD" (at 251.46 74.93 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left)) (uuid "a8224812-304d-4ff9-8588-d02b270cb250")) 
+
+(wire (pts 
+
+(xy 248.92 78.74) 
+
+(xy 251.46 78.74)) (stroke (width 0.254) (type default)) (uuid "9e576e0c-e4f0-4686-ba67-d321e1cd0434")) 
+
+(label "TEMP_1WIRE" (at 251.46 78.74 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left)) (uuid "e092e6d2-bb7a-45b6-8b2a-56ee9a1abf99")) 
+
+(wire (pts 
+
+(xy 248.92 83.82) 
+
+(xy 251.46 83.82)) (stroke (width 0.254) (type default)) (uuid "cc11dfe9-1873-41bf-83b0-89e0fd1dbda7")) 
+
+(label "VALVE_CMD" (at 251.46 83.82000000000001 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left)) (uuid "eef3a757-1487-4b18-a46e-62b37857b9fc")) 
+
+(wire (pts 
+
+(xy 248.92 88.9) 
+
+(xy 251.46 88.9)) (stroke (width 0.254) (type default)) (uuid "c0067501-8bca-46d5-a127-edbcd89e8352")) 
+
+(label "WATER_CMD" (at 251.46 88.9 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left)) (uuid "d0a18551-8cbd-46a2-a699-25b5a1833038")) (sheet (at 39.37 129.54) (size 49.53 39.37) (stroke (width 0) (type solid) (color 0 0 0 0)) (fill (color 0 0 0 0.0)) (uuid bb37b75a-76fe-40fa-8ff8-083f05ec2b96) 
+
+(property "Sheet name" "LIGHTING" (id 0) (at 39.37 127.03999999999999 0) (effects (font (size 1.27 1.27)) (justify left bottom))) 
+
+(property "Sheet file" "modules/LIGHTING.kicad_sch" (id 1) (at 39.37 169.41 0) (effects (font (size 1.27 1.27)) (justify left top) (hide yes))) (pin "24V_PROT" bidirectional (at 88.9 139.7 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid d81d503f-62d1-4648-8cd9-54a862d09eeb)) (pin "3V3" bidirectional (at 88.9 144.78 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid db123d7c-5858-4d69-8c11-b95691c655dc)) (pin "5V" bidirectional (at 88.9 149.86 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid 19cc9853-83b7-4cc5-8372-e693fdda8e67)) (pin "LIGHT_PWM" input (at 88.9 154.94 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid 4db04832-a8a6-4bb0-aed3-a72bc88ddd19)) (pin "LIGHT_24V_OUT" bidirectional (at 39.37 139.7 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid 33c42fd2-a65d-4c02-8c78-8cd127cea8c9)) (pin "LIGHT_FAULT_N" output (at 39.37 144.78 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid 61fbd022-2419-46ab-977d-f85f3610af96)) (pin "LIGHT_RETURN" output (at 39.37 149.86 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid 1367e720-6ae0-40f7-8ff2-94b83ef1d17e)) (instances (project "24V_Greenhouse_Controller" (path "/583c19e2-ed52-4b4e-be60-aa4ae6987309" (page "5"))))) 
+
+(wire (pts 
+
+(xy 39.37 139.7) 
+
+(xy 36.83 139.7)) (stroke (width 0.254) (type default)) (uuid "de86bbd1-bc8e-4877-ad41-df69cdf91c68")) 
+
+(label "24V_PROT" (at 36.83 139.7 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid "71181a15-24d6-4b44-ae97-26e1d079ffb0")) 
+
+(wire (pts 
+
+(xy 39.37 144.78) 
+
+(xy 36.83 144.78)) (stroke (width 0.254) (type default)) (uuid "305aabd8-36cb-4609-b6e6-80ed60410781")) 
+
+(label "3V3" (at 36.83 144.78 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid "8ac2ea9b-076b-461e-aa33-7c012e82e1a0")) 
+
+(wire (pts 
+
+(xy 39.37 149.86) 
+
+(xy 36.83 149.86)) (stroke (width 0.254) (type default)) (uuid "cd7d5a2c-78d1-4d3b-9ad1-a758582ae9e8")) 
+
+(label "5V" (at 36.83 149.86 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid "89bfcd9a-1649-4a8f-afc1-eedae91af7b7")) 
+
+(wire (pts 
+
+(xy 39.37 154.94) 
+
+(xy 36.83 154.94)) (stroke (width 0.254) (type default)) (uuid "78d40b51-b3ce-4efa-ab4c-2c97cfecd15c")) 
+
+(label "LIGHT_PWM" (at 36.83 154.94 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid "3264ea7a-4433-481b-895b-eed22406d7ec")) 
+
+(wire (pts 
+
+(xy 88.9 139.7) 
+
+(xy 91.44 139.7)) (stroke (width 0.254) (type default)) (uuid "8f72300e-d6b8-4c8a-9963-c5e7e40aba15")) 
+
+(global_label "LIGHT_24V_OUT" (shape bidirectional) (at 91.44 139.7 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "db115e72-5f72-4b21-9069-6732a3e5eb4b") 
+
+(property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(wire (pts 
+
+(xy 88.9 144.78) 
+
+(xy 91.44 144.78)) (stroke (width 0.254) (type default)) (uuid "9e693d1a-7c59-41e8-abed-8786ffa015c9")) 
+
+(label "LIGHT_FAULT_N" (at 91.44 144.78 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left)) (uuid "c23f97e3-6c79-4e93-87ee-46ace430af97")) 
+
+(wire (pts 
+
+(xy 88.9 149.86) 
+
+(xy 91.44 149.86)) (stroke (width 0.254) (type default)) (uuid "794121db-3a61-4905-8212-3beebea48d34")) 
+
+(global_label "LIGHT_RETURN" (shape bidirectional) (at 91.44 149.86 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "ed56a054-d2a9-49e2-9e78-00e5f6014760") 
+
+(property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))) (sheet (at 119.38 129.54) (size 49.53 59.69) (stroke (width 0) (type solid) (color 0 0 0 0)) (fill (color 0 0 0 0.0)) (uuid 76b0313d-65cd-4b5b-8a43-727402a363fb) 
+
+(property "Sheet name" "SENSOR_AFE" (id 0) (at 119.38 127.03999999999999 0) (effects (font (size 1.27 1.27)) (justify left bottom))) 
+
+(property "Sheet file" "modules/SENSOR_AFE.kicad_sch" (id 1) (at 119.38 189.73 0) (effects (font (size 1.27 1.27)) (justify left top) (hide yes))) (pin "3V3" bidirectional (at 168.91 139.7 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid 29fad924-a8a1-4b9b-93ce-6afabe9a0b66)) (pin "5V" bidirectional (at 168.91 144.78 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid c3db4d29-358e-464c-bd69-0b6219509fe5)) (pin "EC_ANALOG_IN" input (at 168.91 149.86 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid ecc2ee65-6b50-41d4-b9ed-3b6c66573cdf)) (pin "I2C0_SCL" bidirectional (at 168.91 154.94 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid 8b6bc2dd-4e45-4a74-8554-835cd56a66bb)) (pin "I2C0_SDA" bidirectional (at 168.91 160.02 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid b17849b9-370b-4f70-a98e-ab15f01949b3)) (pin "LEVEL_HIGH_N" input (at 168.91 165.1 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid 5485fcb7-80fe-4360-9753-74ad94a1823a)) (pin "LEVEL_LOW_N" input (at 168.91 168.91 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid 8c18ca91-6e46-418c-ba37-1b9542140943)) (pin "PH_ELECTRODE" input (at 168.91 173.99 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid c74f6465-1c23-4a2c-b638-e5cf8406a954)) (pin "TEMP_1WIRE" bidirectional (at 168.91 179.07 180) (effects (font (size 1.27 1.27)) (justify left)) (uuid 8657700b-c865-4ed4-9653-9b2c71a0fcaf)) (pin "5V_SENSOR_OUT" bidirectional (at 119.38 139.7 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid 7d66ebba-4ed5-4ac0-93fc-bece46bb9e56)) (pin "SENSOR_ALERT_N" output (at 119.38 144.78 0) (effects (font (size 1.27 1.27)) (justify right)) (uuid 23979f79-4039-4520-b305-5e69ba03cb5a)) (instances (project "24V_Greenhouse_Controller" (path "/583c19e2-ed52-4b4e-be60-aa4ae6987309" (page "6"))))) 
+
+(wire (pts 
+
+(xy 119.38 139.7) 
+
+(xy 116.84 139.7)) (stroke (width 0.254) (type default)) (uuid "f10e36ef-db29-4561-89bc-069df1b6841f")) 
+
+(label "3V3" (at 116.84 139.7 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid "05a645c0-9fe6-4b9e-9cdc-4377d0d7cfe5")) 
+
+(wire (pts 
+
+(xy 119.38 144.78) 
+
+(xy 116.84 144.78)) (stroke (width 0.254) (type default)) (uuid "3d822719-6839-4214-aeda-505d9cfc4bf1")) 
+
+(label "5V" (at 116.84 144.78 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid "ea473cf8-da95-44a8-85f9-ac10c996d22f")) 
+
+(wire (pts 
+
+(xy 119.38 149.86) 
+
+(xy 116.84 149.86)) (stroke (width 0.254) (type default)) (uuid "0011dfcd-0fad-4675-8a94-c971cf1f5d48")) 
+
+(global_label "EC_ANALOG_IN" (shape bidirectional) (at 116.84 149.86 180) (effects (font (size 1.27 1.27)) (justify right)) (uuid "f77a54a0-e49e-4940-bd5b-4d918339fa3b") 
+
+(property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(wire (pts 
+
+(xy 119.38 154.94) 
+
+(xy 116.84 154.94)) (stroke (width 0.254) (type default)) (uuid "fb03ba23-b102-4cb6-bb59-481c40c4c4c7")) 
+
+(label "I2C0_SCL" (at 116.84 154.94 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid "7c7d115d-12e7-4d6c-8f73-c9b0dcbc38ce")) 
+
+(wire (pts 
+
+(xy 119.38 160.02) 
+
+(xy 116.84 160.02)) (stroke (width 0.254) (type default)) (uuid "fb40178f-33bb-4037-9a19-3e3f8b7b1e68")) 
+
+(label "I2C0_SDA" (at 116.84 160.02 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid "573555e5-6a5e-4ecd-ba49-347e6789a55b")) 
+
+(wire (pts 
+
+(xy 119.38 165.1) 
+
+(xy 116.84 165.1)) (stroke (width 0.254) (type default)) (uuid "5b422ab3-a8ba-45f0-a8c2-51e08e48c453")) 
+
+(label "LEVEL_HIGH_N" (at 116.84 165.1 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid "81a61807-21d0-495b-8817-082ad5bd746a")) 
+
+(wire (pts 
+
+(xy 119.38 168.91) 
+
+(xy 116.84 168.91)) (stroke (width 0.254) (type default)) (uuid "c59d91aa-3582-455b-bacd-2f9dc8945ab9")) 
+
+(label "LEVEL_LOW_N" (at 116.84 168.91 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid "2da5237c-8316-4cc3-8826-eefa41849ca5")) 
+
+(wire (pts 
+
+(xy 119.38 173.99) 
+
+(xy 116.84 173.99)) (stroke (width 0.254) (type default)) (uuid "9a45ce8e-793f-4fda-a519-5bad01cf9038")) 
+
+(global_label "PH_ELECTRODE" (shape bidirectional) (at 116.84 173.99 180) (effects (font (size 1.27 1.27)) (justify right)) (uuid "36841aba-5274-4daf-a2fa-46b6f555c6a4") 
+
+(property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(wire (pts 
+
+(xy 119.38 179.07) 
+
+(xy 116.84 179.07)) (stroke (width 0.254) (type default)) (uuid "84b2c3eb-585f-4bc2-aa5a-04c3baa164f8")) 
+
+(label "TEMP_1WIRE" (at 116.84 179.07 180) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify right)) (uuid "78b8ddd3-f12c-4cc4-b609-630f75e6c0eb")) 
+
+(wire (pts 
+
+(xy 168.91 139.7) 
+
+(xy 171.45 139.7)) (stroke (width 0.254) (type default)) (uuid "8d04cd68-d2ae-44d6-bbf8-e21d95e20518")) 
+
+(global_label "5V_SENSOR_OUT" (shape bidirectional) (at 171.45 139.7 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "f6c9f595-519d-4d82-8abf-d56f0050f79b") 
+
+(property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0) (effects (font (size 1.27 1.27)) hide))) 
+
+(wire (pts 
+
+(xy 168.91 144.78) 
+
+(xy 171.45 144.78)) (stroke (width 0.254) (type default)) (uuid "b3b762e9-5466-4b6f-9185-23923a52b78d")) 
+
+(label "SENSOR_ALERT_N" (at 171.45 144.78 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left)) (uuid "ad54e83e-9540-4b46-a101-1e73e9337939")) (sheet_instances (path "/" (page "1"))))
