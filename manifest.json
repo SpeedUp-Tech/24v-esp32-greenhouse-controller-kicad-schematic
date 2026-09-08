@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "project": "24v-esp32-greenhouse-controller-kicad-schematic",
-  "release_version": "v0.1.0",
-  "generated_date": "2026-09-07",
+  "release_version": "v0.1.1",
+  "generated_date": "2026-09-08",
   "publication_ready_at_prepare_time": true,
   "files": [
     {
@@ -14,6 +14,11 @@
       "path": "ENGINEERING_LIMITATIONS.md",
       "bytes": 2391,
       "sha256": "1d90f5ccd01ca3f64d41fbbf25a6e7b47f5743e7db1929beea718d6cdd55928d"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 8852,
+      "sha256": "6e471d647db50527d0c75ee5f1a55a74012ab177c73282bef0bdc7f6562b7ded"
     },
     {
       "path": "LICENSES/CC-BY-4.0.txt",
@@ -42,8 +47,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6248,
-      "sha256": "fe1cf9f7517ef93b78194e43d408642dd70e92ce096d94bddd4f95436a9d662f"
+      "bytes": 6344,
+      "sha256": "e72f10107de137b2dd032afd5a72d91c14b50a486d31ed5413697b091e67e5c6"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",

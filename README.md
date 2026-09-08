@@ -2,7 +2,7 @@
 
 Generated with SpeedUp from a product requirement, this repository contains an editable hierarchical KiCad schematic for a 24V greenhouse and hydroponics controller built around the ESP32-S3. It separates power, control, sensing, lighting, and actuator functions into reviewable engineering sheets.
 
-[Download v0.1.0](https://github.com/SpeedUp-Tech/24v-esp32-greenhouse-controller-kicad-schematic/releases/tag/v0.1.0) · [Open the live demo](https://speed-up.ai/demo/smart-greenhouse-hydroponics-controller/) · [Read the project case study](https://speed-up.ai/blog/24v-esp32-greenhouse-controller-kicad-project/)
+[Download v0.1.1](https://github.com/SpeedUp-Tech/24v-esp32-greenhouse-controller-kicad-schematic/releases/tag/v0.1.1) · [Open the live demo](https://speed-up.ai/demo/smart-greenhouse-hydroponics-controller/) · [Read the project case study](https://speed-up.ai/blog/24v-esp32-greenhouse-controller-kicad-project/)
 
 ![24V ESP32 greenhouse controller block diagram](evidence/block-diagram.png)
 
@@ -65,7 +65,7 @@ The BOM is a design-review aid, not a purchasing list. Treat the schematic as th
 ## Open in KiCad
 
 1. Install KiCad 10 or a compatible version.
-2. Download and extract the [v0.1.0 release](https://github.com/SpeedUp-Tech/24v-esp32-greenhouse-controller-kicad-schematic/releases/tag/v0.1.0), or clone the repository.
+2. Download and extract the [v0.1.1 release](https://github.com/SpeedUp-Tech/24v-esp32-greenhouse-controller-kicad-schematic/releases/tag/v0.1.1), or clone the repository.
 3. Open `hardware/24V_Greenhouse_Controller.kicad_pro`.
 4. Review the hierarchy, embedded symbols, pin mappings, footprint assignments, power assumptions, and ERC findings before downstream work.
 
@@ -77,7 +77,12 @@ Review [ENGINEERING_LIMITATIONS.md](ENGINEERING_LIMITATIONS.md) before using or 
 
 ## Licensing and provenance
 
-SpeedUp-owned hardware design files are published under CERN-OHL-P-2.0. Original documentation and images are published under CC BY 4.0. See [LICENSE_SCOPE.md](LICENSE_SCOPE.md) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for the exact scope and exclusions.
+This project is openly licensed:
+
+- SpeedUp-owned hardware design files are available under [CERN-OHL-P-2.0](LICENSE).
+- Original documentation and images are available under [CC BY 4.0](LICENSES/CC-BY-4.0.txt).
+
+See [LICENSE_SCOPE.md](LICENSE_SCOPE.md) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for the exact scope, third-party terms, and exclusions.
 
 ## About SpeedUp
 
