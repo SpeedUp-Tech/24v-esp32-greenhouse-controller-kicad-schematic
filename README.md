@@ -92,6 +92,8 @@ All seven current schematic pages export successfully. KiCad 10.0.5 reports 13 E
 
 ## Licensing and provenance
 
+The schematic and PCB design files in the supplied project bundle were exported by SpeedUp. The upstream sources and licenses of the component symbols and footprints have not yet been verified individually.
+
 The existing repository's license scope is retained: SpeedUp-owned hardware design files under [CERN-OHL-P-2.0](LICENSE), and original documentation and images under [CC BY 4.0](LICENSES/CC-BY-4.0.txt). Third-party materials retain their own terms. See [LICENSE_SCOPE.md](LICENSE_SCOPE.md) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 ## About SpeedUp
