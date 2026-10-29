@@ -1,15 +1,11 @@
 # Third-Party Notices
 
-The third-party review is complete for the files included in this public package. No standalone project-local symbol library, footprint library, 3D model, vendor datasheet, or spreadsheet workbook is redistributed.
-
-## Excluded source-bundle assets
-
-The supplied private source bundle contains project-local symbol libraries, footprint libraries, library mapping tables, a PCB file with embedded footprint geometry, and local KiCad or spreadsheet state. Their exact upstream provenance and redistribution terms could not be established from the supplied evidence, so they are excluded from the public repository and release ZIP.
-
-## Included schematic data
-
-The `.kicad_sch` files contain embedded symbol definitions and footprint assignment strings required to preserve the editable SpeedUp schematic design. They are included as project design output; this does not claim ownership of manufacturer names, component names, part numbers, the KiCad file format, or the KiCad trademark, and does not establish symbol or footprint suitability for fabrication.
-
-Before reuse or PCB development, independently verify symbol pins, package dimensions, pad geometry, ratings, and applicable upstream terms against authoritative component documentation.
-
 Copyright © 2026 SpeedUp.
+
+The v0.2.0 public package follows the existing repository's publication scope and license choices. SpeedUp-owned schematic design output remains under CERN-OHL-P-2.0; original documentation and rendered schematic evidence remain under CC BY 4.0. Component names, manufacturer information, and third-party materials are not relicensed as SpeedUp work.
+
+The supplied project-local symbol and footprint libraries do not include sufficient upstream attribution or redistribution terms. Those libraries, their mapping tables, and the PCB with embedded footprint geometry are excluded from this public package. The source PCB is present locally; exclusion is a publication-provenance decision, not a claim that no PCB exists.
+
+Included schematic files retain embedded symbol definitions and footprint assignment strings as project design output, following the existing repository's scope. Review symbol pins, package assignments, and applicable upstream terms independently before reuse. Standalone library availability and fabrication suitability are not established.
+
+The original PDF report, XLSX workbook, PCB SVG, custom PCB rules, backups, local settings, and internal review notes are outside this public update. See `provenance/EXCLUDED_ASSETS.md` for the explicit inventory. Historical ESP32 files retain their prior notices.

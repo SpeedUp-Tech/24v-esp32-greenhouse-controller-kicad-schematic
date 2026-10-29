@@ -1,8 +1,5 @@
 covered_path,owner_or_upstream,source,version_or_date,license,status,modifications,notice
-hardware/**/*.kicad_pro; hardware/**/*.kicad_sch,SpeedUp,Supplied SpeedUp project evidence,2026-09-07,CERN-OHL-P-2.0,included,Standalone unverified libraries and PCB file omitted,THIRD_PARTY_NOTICES.md
-bom/BillOfMaterials.csv,SpeedUp,Exported from the included KiCad schematic,2026-09-07,CC BY 4.0,included,Engineering-review BOM; schematic is source of truth,THIRD_PARTY_NOTICES.md
-evidence/*.png,SpeedUp,Supplied and rendered SpeedUp project evidence,2026-09-07,CC BY 4.0,included,Cropped and renamed for public readability,THIRD_PARTY_NOTICES.md
-source bundle symbols/*.kicad_sym,Unverified,Private supplied source bundle,unknown,unknown,excluded,17 standalone symbol libraries not redistributed,THIRD_PARTY_NOTICES.md
-source bundle footprints/*.kicad_mod,Unverified,Private supplied source bundle,unknown,unknown,excluded,36 standalone footprint files not redistributed,THIRD_PARTY_NOTICES.md
-source bundle sym-lib-table; fp-lib-table,Unverified,Private supplied source bundle,unknown,unknown,excluded,Project-local library tables not redistributed,THIRD_PARTY_NOTICES.md
-source bundle *.kicad_pcb,Unverified,Private supplied source bundle,unknown,unknown,excluded,PCB file with embedded footprint geometry not redistributed,THIRD_PARTY_NOTICES.md
+hardware/smart-greenhouse-controller/**,SpeedUp,User-supplied Smart_Greenhouse_Controller project,2026-10-22,CERN-OHL-P-2.0,included,Byte-identical project and schematic files; packaged in a version-specific folder,THIRD_PARTY_NOTICES.md
+bom/Smart_Greenhouse_Controller.csv,SpeedUp,User-supplied CSV BOM,2026-10-23,CC BY 4.0,included,Renamed only; 52 grouped rows and 143 placed references,THIRD_PARTY_NOTICES.md
+evidence/smart-greenhouse-*.png,SpeedUp,KiCad 10.0.5 export of supplied schematic,2026-10-29,CC BY 4.0,included,Rendered for inspection,THIRD_PARTY_NOTICES.md
+Source PCB and standalone libraries,Unverified,User-supplied source bundle,2026-10-23,unknown,excluded,Not redistributed,EXCLUDED_ASSETS.md

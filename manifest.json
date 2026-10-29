@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "project": "24v-esp32-greenhouse-controller-kicad-schematic",
-  "release_version": "v0.1.1",
-  "generated_date": "2026-09-08",
+  "release_version": "v0.2.0",
+  "generated_date": "2026-10-22",
   "publication_ready_at_prepare_time": true,
   "files": [
     {
@@ -12,8 +12,8 @@
     },
     {
       "path": "ENGINEERING_LIMITATIONS.md",
-      "bytes": 2391,
-      "sha256": "1d90f5ccd01ca3f64d41fbbf25a6e7b47f5743e7db1929beea718d6cdd55928d"
+      "bytes": 2316,
+      "sha256": "70f61f7223aa453864531c543bca07df6e3b7edf751b6b88cc048b3f8eecdec0"
     },
     {
       "path": "LICENSE",
@@ -37,28 +37,43 @@
     },
     {
       "path": "PRODUCT_REQUIREMENT.md",
-      "bytes": 371,
-      "sha256": "5b81789afa58a9d7994f5e4415e04a0d450529c5a64a325618e8ee45757137ac"
+      "bytes": 370,
+      "sha256": "4832c888578bf08cecbe708616b8e28b0a3589761447dad2a0c539be2686ea23"
     },
     {
       "path": "PUBLISHING_CHECKLIST.md",
-      "bytes": 752,
-      "sha256": "8d25d8b5d3a3b233bd8b315907d50c2561d01012886e9b5915cde64c9c192696"
+      "bytes": 569,
+      "sha256": "d697af5d64975015871e58c53746814bbae3b5b55b104d4b55f10e2b06a0ca14"
     },
     {
       "path": "README.md",
-      "bytes": 6344,
-      "sha256": "e72f10107de137b2dd032afd5a72d91c14b50a486d31ed5413697b091e67e5c6"
+      "bytes": 8633,
+      "sha256": "798e2998618602572bf9c9c2eba06cfc0cf9c781899448482d442f079bcf5755"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 1296,
-      "sha256": "8cd540efc3baf21159578c5bc663b590173be39c06e6e709c226ab04539e201b"
+      "bytes": 1380,
+      "sha256": "9057d040ef4ed08d126ded99826e175af61883fd9eff75d4a7d71900eb7719d8"
     },
     {
       "path": "bom/BillOfMaterials.csv",
       "bytes": 3117,
       "sha256": "3ec71f26d4f9247e997f1f8432273620cfaa5e7ba7dd598d5fea5c36d3b14af4"
+    },
+    {
+      "path": "bom/Smart_Greenhouse_Controller.csv",
+      "bytes": 13525,
+      "sha256": "9bd0177075716e5b682e2126d1ee5bf0f1a10ca502723c5789855272aee6a7fb"
+    },
+    {
+      "path": "docs/ESP32-v0.1.1-ENGINEERING_LIMITATIONS.md",
+      "bytes": 2391,
+      "sha256": "1d90f5ccd01ca3f64d41fbbf25a6e7b47f5743e7db1929beea718d6cdd55928d"
+    },
+    {
+      "path": "docs/ESP32-v0.1.1-README.md",
+      "bytes": 6381,
+      "sha256": "c82be6705a6a613060d26b766a3e4d194a58fa05f74509e1a7bf6b941b0e260c"
     },
     {
       "path": "evidence/block-diagram.png",
@@ -84,6 +99,21 @@
       "path": "evidence/sensor-afe-schematic.png",
       "bytes": 79954,
       "sha256": "b987ebbe655e88f04196e0924a4b26b3b53822e2fe0a03538bcd9f244b200352"
+    },
+    {
+      "path": "evidence/smart-greenhouse-control.png",
+      "bytes": 243516,
+      "sha256": "903c7bd5ceba67a8c0f8a12182cfd967fa016811d5ce87e44c60b1615973bacc"
+    },
+    {
+      "path": "evidence/smart-greenhouse-ph.png",
+      "bytes": 245153,
+      "sha256": "c4f527191edf95810130448ee3d0578242f2fa1bb3330914d4a26274f1c99c32"
+    },
+    {
+      "path": "evidence/smart-greenhouse-schematic-structure.png",
+      "bytes": 240478,
+      "sha256": "a9a8cc70d3c05254c856d2662e2034c0d3da55530230fbe8c3388bbd04e2866b"
     },
     {
       "path": "hardware/24V_Greenhouse_Controller.kicad_pro",
@@ -121,14 +151,59 @@
       "sha256": "3883e055eba908325897dbab6cebe09ef834c0d49a5d4d593c7f898f2ba7b414"
     },
     {
+      "path": "hardware/smart-greenhouse-controller/Smart_Greenhouse_Controller.kicad_pro",
+      "bytes": 16169,
+      "sha256": "5bcd118a37e6b874a610daaa7fe2080401f094ddebb3e4b7c2a13fdf053daf18"
+    },
+    {
+      "path": "hardware/smart-greenhouse-controller/Smart_Greenhouse_Controller.kicad_sch",
+      "bytes": 20875,
+      "sha256": "47c1aa1b7678e8cc1d4c32c7335fb60265d537232cdfff643eb873fd50b7229a"
+    },
+    {
+      "path": "hardware/smart-greenhouse-controller/modules/CONTROL.kicad_sch",
+      "bytes": 177699,
+      "sha256": "77a4f5727221d5423b7d980cfbe3c78e141dcac6dea8dfa8e3d38dc132749d7c"
+    },
+    {
+      "path": "hardware/smart-greenhouse-controller/modules/LEVEL.kicad_sch",
+      "bytes": 36818,
+      "sha256": "3e099384e70ee9d4a2b2d10eb292a7225fb54a050fd94cb9aa7b3362c8213d00"
+    },
+    {
+      "path": "hardware/smart-greenhouse-controller/modules/LOADS.kicad_sch",
+      "bytes": 284321,
+      "sha256": "2a665fe6905d59b12208982ed02f44d7ec4bec979e0d2b9c965b89f48856e7d2"
+    },
+    {
+      "path": "hardware/smart-greenhouse-controller/modules/PH.kicad_sch",
+      "bytes": 142636,
+      "sha256": "6ecda5d225b2ac7b7ad724b4925a1d62289eddbfb2b6a8f5fb73c683918f857d"
+    },
+    {
+      "path": "hardware/smart-greenhouse-controller/modules/POWER.kicad_sch",
+      "bytes": 117947,
+      "sha256": "d0159dc8a037e017e690f523abfe5e28b8667bfae357213f5790159f42db0a8b"
+    },
+    {
+      "path": "hardware/smart-greenhouse-controller/modules/UI.kicad_sch",
+      "bytes": 125603,
+      "sha256": "09b73268d455c016894c3286ee25d86050e816fbada59385c17245526bd99d24"
+    },
+    {
+      "path": "provenance/EXCLUDED_ASSETS.md",
+      "bytes": 1038,
+      "sha256": "f1c1005ec2fce294e758957641263329d95f228a7265e5936eda4aa50fa90b5f"
+    },
+    {
       "path": "provenance/THIRD_PARTY_NOTICES.md",
-      "bytes": 1296,
-      "sha256": "8cd540efc3baf21159578c5bc663b590173be39c06e6e709c226ab04539e201b"
+      "bytes": 1380,
+      "sha256": "9057d040ef4ed08d126ded99826e175af61883fd9eff75d4a7d71900eb7719d8"
     },
     {
       "path": "provenance/sources.csv",
-      "bytes": 1342,
-      "sha256": "d9c8f127c84997a81573ffcae511728fdac92be2a20ae382d2e4a7cce085525d"
+      "bytes": 807,
+      "sha256": "d4e4ee761cbf0b50e19a07511977b371f566f249f0616ad239fb8b7e78d87aa6"
     }
   ]
 }

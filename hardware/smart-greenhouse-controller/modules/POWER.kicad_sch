@@ -1,0 +1,2725 @@
+(kicad_sch (version 20250114) (generator "SpeedUp AI") (generator_version "9.0") (uuid abc4293e-0f31-48ef-8cef-7747bfd5d3d4) (paper "A4") (title_block (title "POWER") (date "2026-10-22") (rev "") (company "") (comment 1 "") (comment 2 "") (comment 3 "") (comment 4 "")) (lib_symbols 
+
+(symbol "Connectors:DB2ERC-3.5-2P-GN__POWER__J1" (pin_names (offset 1.016)) (in_bom yes) (on_board yes) 
+
+(property "Reference" "J" (id 0) (at 0.0 10.2616 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "DB2ERC-3.5-2P-GN" (id 1) (at 0.0 -10.1727 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:CONN-TH_2P-P3.50_DB2ERC-3.5-2P__2995fda3-b48a-5eb8-a601-7b29d1a1c2ab" (id 2) (at 0.0 -12.7127 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 0.0 -15.2527 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "DB2ERC-3.5-2P-GN__POWER__J1_0_1" 
+
+(polyline (pts 
+
+(xy -2.286 5.08) 
+
+(xy 2.286 5.08) 
+
+(xy 2.335553 5.075119) 
+
+(xy 2.383202 5.060665) 
+
+(xy 2.427115 5.037193) 
+
+(xy 2.465605 5.005605) 
+
+(xy 2.497193 4.967115) 
+
+(xy 2.520665 4.923202) 
+
+(xy 2.535119 4.875553) 
+
+(xy 2.54 4.826) 
+
+(xy 2.54 -4.826) 
+
+(xy 2.535119 -4.875553) 
+
+(xy 2.520665 -4.923202) 
+
+(xy 2.497193 -4.967115) 
+
+(xy 2.465605 -5.005605) 
+
+(xy 2.427115 -5.037193) 
+
+(xy 2.383202 -5.060665) 
+
+(xy 2.335553 -5.075119) 
+
+(xy 2.286 -5.08) 
+
+(xy -2.286 -5.08) 
+
+(xy -2.335553 -5.075119) 
+
+(xy -2.383202 -5.060665) 
+
+(xy -2.427115 -5.037193) 
+
+(xy -2.465605 -5.005605) 
+
+(xy -2.497193 -4.967115) 
+
+(xy -2.520665 -4.923202) 
+
+(xy -2.535119 -4.875553) 
+
+(xy -2.54 -4.826) 
+
+(xy -2.54 4.826) 
+
+(xy -2.535119 4.875553) 
+
+(xy -2.520665 4.923202) 
+
+(xy -2.497193 4.967115) 
+
+(xy -2.465605 5.005605) 
+
+(xy -2.427115 5.037193) 
+
+(xy -2.383202 5.060665) 
+
+(xy -2.335553 5.075119) 
+
+(xy -2.286 5.08)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type background))) (circle (center 1.016 2.54) (radius 0.381) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) (circle (center 1.016 -2.54) (radius 0.381) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "DB2ERC-3.5-2P-GN__POWER__J1_1_1" (pin unspecified line (at 6.35 2.54 180) (length 3.81) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 6.35 -2.54 180) (length 3.81) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Circuit_Protection:0451010.MRL__POWER__F1" (pin_names (offset 1.016) hide) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "F" (id 0) (at 4.70535 7.7216 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "0451010.MRL" (id 1) (at 4.70535 -3.937 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:FUSE-SMD_L6.1-W2.7__4da57688-a21a-5595-b6e4-d733cec20194" (id 2) (at 4.70535 -6.477 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 4.70535 -9.017 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "0451010.MRL__POWER__F1_0_1" 
+
+(polyline (pts 
+
+(xy -2.159 1.397) 
+
+(xy 2.159 1.397) 
+
+(xy 2.233329 1.389679) 
+
+(xy 2.304802 1.367998) 
+
+(xy 2.370672 1.33279) 
+
+(xy 2.428408 1.285408) 
+
+(xy 2.47579 1.227672) 
+
+(xy 2.510998 1.161802) 
+
+(xy 2.532679 1.090329) 
+
+(xy 2.54 1.016) 
+
+(xy 2.54 -1.016) 
+
+(xy 2.532679 -1.090329) 
+
+(xy 2.510998 -1.161802) 
+
+(xy 2.47579 -1.227672) 
+
+(xy 2.428408 -1.285408) 
+
+(xy 2.370672 -1.33279) 
+
+(xy 2.304802 -1.367998) 
+
+(xy 2.233329 -1.389679) 
+
+(xy 2.159 -1.397) 
+
+(xy -2.159 -1.397) 
+
+(xy -2.233329 -1.389679) 
+
+(xy -2.304802 -1.367998) 
+
+(xy -2.370672 -1.33279) 
+
+(xy -2.428408 -1.285408) 
+
+(xy -2.47579 -1.227672) 
+
+(xy -2.510998 -1.161802) 
+
+(xy -2.532679 -1.090329) 
+
+(xy -2.54 -1.016) 
+
+(xy -2.54 1.016) 
+
+(xy -2.532679 1.090329) 
+
+(xy -2.510998 1.161802) 
+
+(xy -2.47579 1.227672) 
+
+(xy -2.428408 1.285408) 
+
+(xy -2.370672 1.33279) 
+
+(xy -2.304802 1.367998) 
+
+(xy -2.233329 1.389679) 
+
+(xy -2.159 1.397)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type background))) 
+
+(polyline (pts 
+
+(xy -1.651 -0.0) 
+
+(xy 1.651 -0.0)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "0451010.MRL__POWER__F1_1_1" (pin input line (at -3.81 -0.0 0) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin input line (at 3.81 -0.0 180) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Transistors_Thyristors:SUD50P06-15_UMW__POWER__Q1" (pin_names (offset 1.016)) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "Q" (id 0) (at 5.6896 8.89 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "SUD50P06-15(UMW)" (id 1) (at 5.6896 -8.9916 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:TO-252-2_L6.6-W6.1-P4.58-LS9.9-TL__a6c299c1-62ee-576f-a3d2-456f42c18ec5" (id 2) (at 5.6896 -11.5316 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 5.6896 -14.0716 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "SUD50P06-15_UMW__POWER__Q1_0_1" (circle (center 0.0 -0.0) (radius 3.429) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 2.794 1.905) 
+
+(xy -2.794 1.905)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 2.794 1.016) 
+
+(xy -2.794 1.016)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 1.905 1.016) 
+
+(xy 1.905 -1.27)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -1.905 1.016) 
+
+(xy -1.905 -1.27)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 0.0 2.286) 
+
+(xy 0.508 1.27) 
+
+(xy -0.508 1.27) 
+
+(xy 0.0 2.286)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "SUD50P06-15_UMW__POWER__Q1_1_1" (pin input line (at 0.0 6.35 270) (length 4.445) (name "G" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin power_in line (at -7.62 -1.27 0) (length 5.715) (name "D" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))) (pin power_in line (at 7.62 -1.27 180) (length 5.715) (name "S" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Transistors_Thyristors:SUD50P06-15_UMW__POWER__Q2" (pin_names (offset 1.016)) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "Q" (id 0) (at 5.6896 8.89 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "SUD50P06-15(UMW)" (id 1) (at 5.6896 -8.9916 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:TO-252-2_L6.6-W6.1-P4.58-LS9.9-TL__0743d905-2182-5400-ae7f-cc82ef00091f" (id 2) (at 5.6896 -11.5316 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 5.6896 -14.0716 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "SUD50P06-15_UMW__POWER__Q2_0_1" (circle (center 0.0 -0.0) (radius 3.429) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 2.794 1.905) 
+
+(xy -2.794 1.905)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 2.794 1.016) 
+
+(xy -2.794 1.016)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 1.905 1.016) 
+
+(xy 1.905 -1.27)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -1.905 1.016) 
+
+(xy -1.905 -1.27)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 0.0 2.286) 
+
+(xy 0.508 1.27) 
+
+(xy -0.508 1.27) 
+
+(xy 0.0 2.286)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "SUD50P06-15_UMW__POWER__Q2_1_1" (pin input line (at 0.0 6.35 270) (length 4.445) (name "G" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin power_in line (at -7.62 -1.27 0) (length 5.715) (name "D" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))) (pin power_in line (at 7.62 -1.27 180) (length 5.715) (name "S" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Diodes:BZT52C12__POWER__D1" (pin_names (offset 1.016)) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "D" (id 0) (at -5.0038 6.35 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "BZT52C12" (id 1) (at -5.0038 -6.35 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:SOD-123_L2.7-W1.6-LS3.7-RD__64490b2b-6479-5d31-9c47-fd89c63ab337" (id 2) (at -5.0038 -8.89 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at -5.0038 -11.43 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "BZT52C12__POWER__D1_0_1" 
+
+(polyline (pts 
+
+(xy 1.27 -1.27) 
+
+(xy -1.27 -1.27) 
+
+(xy 0.0 1.27) 
+
+(xy 1.27 -1.27)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 1.524 1.27) 
+
+(xy -1.524 1.27)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 1.524 1.27) 
+
+(xy 2.286 0.508)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -1.524 1.27) 
+
+(xy -2.286 2.032)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "BZT52C12__POWER__D1_1_1" (pin input line (at 0.0 -3.81 90) (length 2.54) (name "A" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))) (pin input line (at 0.0 3.81 270) (length 2.54) (name "K" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Device:R__POWER__R2" (pin_names (offset 1.016) hide) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "R" (id 0) (at 3.3274 6.35 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "100k" (id 1) (at 3.3274 -6.35 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:R_0603_1608Metric__3177dc4e-0055-526f-b5b1-42846782a051" (id 2) (at 3.3274 -8.89 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 3.3274 -11.43 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "R__POWER__R2_0_1" 
+
+(polyline (pts 
+
+(xy -1.016 2.54) 
+
+(xy 1.016 2.54) 
+
+(xy 1.016 -2.54) 
+
+(xy -1.016 -2.54) 
+
+(xy -1.016 2.54)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type background)))) 
+
+(symbol "R__POWER__R2_1_1" (pin passive line (at 0.0 3.81 270) (length 1.27) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 0.0 -3.81 90) (length 1.27) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Device:R__POWER__R1" (pin_names (offset 1.016) hide) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "R" (id 0) (at 3.3274 6.35 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "4.7k" (id 1) (at 3.3274 -6.35 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:R_1206_3216Metric__23367e4e-be16-5aa2-a8ed-3adeb61633d7" (id 2) (at 3.3274 -8.89 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 3.3274 -11.43 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "R__POWER__R1_0_1" 
+
+(polyline (pts 
+
+(xy -1.016 2.54) 
+
+(xy 1.016 2.54) 
+
+(xy 1.016 -2.54) 
+
+(xy -1.016 -2.54) 
+
+(xy -1.016 2.54)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type background)))) 
+
+(symbol "R__POWER__R1_1_1" (pin passive line (at 0.0 3.81 270) (length 1.27) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 0.0 -3.81 90) (length 1.27) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Circuit_Protection:SMBJ28A__POWER__D2" (pin_names (offset 1.016)) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "D" (id 0) (at 4.42595 6.35 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "SMBJ28A" (id 1) (at 4.42595 -6.35 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:SMB_L4.6-W3.6-LS5.4-RD__8522bdaa-25bf-5d30-9724-65d2b4cd3d17" (id 2) (at 4.42595 -8.89 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 4.42595 -11.43 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "SMBJ28A__POWER__D2_0_1" 
+
+(polyline (pts 
+
+(xy -1.27 1.27) 
+
+(xy 1.27 1.27) 
+
+(xy 0.0 -1.27) 
+
+(xy -1.27 1.27)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -1.524 -1.27) 
+
+(xy 1.524 -1.27)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -1.524 -1.27) 
+
+(xy -2.286 -0.508)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 1.524 -1.27) 
+
+(xy 2.286 -2.032)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "SMBJ28A__POWER__D2_1_1" (pin input line (at 0.0 3.81 270) (length 2.54) (name "K" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))) (pin input line (at 0.0 -3.81 90) (length 2.54) (name "A" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Power_Management_ICs:LM2594HVMX-5.0_NOPB__POWER__U1" (pin_names (offset 1.016)) (in_bom yes) (on_board yes) 
+
+(property "Reference" "U" (id 0) (at 0.0 21.59 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "LM2594HVMX-5.0/NOPB" (id 1) (at 0.0 -21.59 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL__118041f4-5891-569f-acbf-de397872f5a7" (id 2) (at 0.0 -24.13 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 0.0 -26.67 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "LM2594HVMX-5.0_NOPB__POWER__U1_0_1" 
+
+(polyline (pts 
+
+(xy -21.59 13.97) 
+
+(xy 21.59 13.97) 
+
+(xy 21.837765 13.945597) 
+
+(xy 22.076008 13.873327) 
+
+(xy 22.295574 13.755966) 
+
+(xy 22.488026 13.598026) 
+
+(xy 22.645966 13.405574) 
+
+(xy 22.763327 13.186008) 
+
+(xy 22.835597 12.947765) 
+
+(xy 22.86 12.7) 
+
+(xy 22.86 -12.7) 
+
+(xy 22.835597 -12.947765) 
+
+(xy 22.763327 -13.186008) 
+
+(xy 22.645966 -13.405574) 
+
+(xy 22.488026 -13.598026) 
+
+(xy 22.295574 -13.755966) 
+
+(xy 22.076008 -13.873327) 
+
+(xy 21.837765 -13.945597) 
+
+(xy 21.59 -13.97) 
+
+(xy -21.59 -13.97) 
+
+(xy -21.837765 -13.945597) 
+
+(xy -22.076008 -13.873327) 
+
+(xy -22.295574 -13.755966) 
+
+(xy -22.488026 -13.598026) 
+
+(xy -22.645966 -13.405574) 
+
+(xy -22.763327 -13.186008) 
+
+(xy -22.835597 -12.947765) 
+
+(xy -22.86 -12.7) 
+
+(xy -22.86 12.7) 
+
+(xy -22.835597 12.947765) 
+
+(xy -22.763327 13.186008) 
+
+(xy -22.645966 13.405574) 
+
+(xy -22.488026 13.598026) 
+
+(xy -22.295574 13.755966) 
+
+(xy -22.076008 13.873327) 
+
+(xy -21.837765 13.945597) 
+
+(xy -21.59 13.97)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type background))) (circle (center 0.0 12.446) (radius 0.381) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "LM2594HVMX-5.0_NOPB__POWER__U1_1_1" (pin unspecified line (at -27.94 5.08 0) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin unspecified line (at -27.94 -0.0 0) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))) (pin unspecified line (at -27.94 -5.08 0) (length 5.08) (name "NC" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 27.94 2.54 180) (length 5.08) (name "OUTPUT" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 27.94 -2.54 180) (length 5.08) (name "Feedback" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 0.0 19.05 270) (length 5.08) (name "+VIN" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27))))) (pin unspecified line (at -2.54 -19.05 90) (length 5.08) (name "~{ON}/OFF" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 2.54 -19.05 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Capacitors:UPW1J121MPD__POWER__C1" (pin_names (offset 1.016)) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "C" (id 0) (at 6.61035 6.35 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "UPW1J121MPD" (id 1) (at 6.61035 -6.35 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:CAP-TH_BD10.0-P5.00-D1.0-FD__3727d51d-779b-5e6d-bc05-8b4f8afd8cc0" (id 2) (at 6.61035 -8.89 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 6.61035 -11.43 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "UPW1J121MPD__POWER__C1_0_1" 
+
+(polyline (pts 
+
+(xy 2.032 0.762) 
+
+(xy -2.032 0.762)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 2.032 -0.762) 
+
+(xy 1.524 -0.53975) 
+
+(xy 1.016 -0.381) 
+
+(xy 0.508 -0.28575) 
+
+(xy 0.0 -0.254) 
+
+(xy -0.508 -0.28575) 
+
+(xy -1.016 -0.381) 
+
+(xy -1.524 -0.53975) 
+
+(xy -2.032 -0.762)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 0.0 2.54) 
+
+(xy 0.0 0.762)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 0.0 -0.762) 
+
+(xy 0.0 -2.54)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "UPW1J121MPD__POWER__C1_1_1" (pin unspecified line (at 0.0 3.81 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 0.0 -3.81 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Device:C__POWER__C4" (pin_names (offset 1.016) hide) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "C" (id 0) (at 2.8194 6.35 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "100n" (id 1) (at 2.8194 -6.35 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:C_0805_2012Metric__49de1c5b-999b-548d-b890-d620ad457c63" (id 2) (at 2.8194 -8.89 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 2.8194 -11.43 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "C__POWER__C4_0_1" 
+
+(polyline (pts 
+
+(xy -2.032 0.762) 
+
+(xy 2.032 0.762)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -2.032 -0.762) 
+
+(xy 2.032 -0.762)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "C__POWER__C4_1_1" (pin passive line (at 0.0 3.81 270) (length 3.048) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 0.0 -3.81 90) (length 3.048) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Inductors_Coils_Transformers:SMDRI127-151MT__POWER__L1" (pin_names (offset 1.016) hide) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "L" (id 0) (at 6.4389 6.4516 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "SMDRI127-151MT" (id 1) (at 6.4389 -3.81 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:IND-SMD_L12.3-W12.3__e7fe8bee-c908-523c-8c88-c2de2bf4253d" (id 2) (at 6.4389 -6.35 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 6.4389 -8.89 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "SMDRI127-151MT__POWER__L1_0_1" 
+
+(polyline (pts 
+
+(xy -2.54 -0.0) 
+
+(xy -2.491664 -0.243004) 
+
+(xy -2.354012 -0.449012) 
+
+(xy -2.148004 -0.586664) 
+
+(xy -1.905 -0.635) 
+
+(xy -1.661996 -0.586664) 
+
+(xy -1.455988 -0.449012) 
+
+(xy -1.318336 -0.243004) 
+
+(xy -1.27 -0.0) 
+
+(xy -1.221664 -0.243004) 
+
+(xy -1.084012 -0.449012) 
+
+(xy -0.878004 -0.586664) 
+
+(xy -0.635 -0.635) 
+
+(xy -0.391996 -0.586664) 
+
+(xy -0.185988 -0.449012) 
+
+(xy -0.048336 -0.243004) 
+
+(xy 0.0 -0.0) 
+
+(xy 0.048336 -0.243004) 
+
+(xy 0.185988 -0.449012) 
+
+(xy 0.391996 -0.586664) 
+
+(xy 0.635 -0.635) 
+
+(xy 0.878004 -0.586664) 
+
+(xy 1.084012 -0.449012) 
+
+(xy 1.221664 -0.243004) 
+
+(xy 1.27 -0.0) 
+
+(xy 1.318336 -0.243004) 
+
+(xy 1.455988 -0.449012) 
+
+(xy 1.661996 -0.586664) 
+
+(xy 1.905 -0.635) 
+
+(xy 2.148004 -0.586664) 
+
+(xy 2.354012 -0.449012) 
+
+(xy 2.491664 -0.243004) 
+
+(xy 2.54 -0.0)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "SMDRI127-151MT__POWER__L1_1_1" (pin unspecified line (at -3.81 -0.0 0) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 3.81 -0.0 180) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Diodes:SS56__POWER__D3" (pin_names (offset 1.016)) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "D" (id 0) (at 3.0734 6.35 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "SS56" (id 1) (at 3.0734 -6.35 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:SMA_L4.3-W2.6-LS5.0-RD__b471d17a-2540-55e9-bcda-7ef2378a31f6" (id 2) (at 3.0734 -8.89 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 3.0734 -11.43 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "SS56__POWER__D3_0_1" 
+
+(polyline (pts 
+
+(xy 1.27 -1.27) 
+
+(xy -1.27 -1.27) 
+
+(xy 0.0 1.27) 
+
+(xy 1.27 -1.27)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 1.524 1.27) 
+
+(xy -1.524 1.27)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 1.524 1.27) 
+
+(xy 1.524 2.286)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -1.524 0.254) 
+
+(xy -1.524 1.27)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "SS56__POWER__D3_1_1" (pin input line (at 0.0 -3.81 90) (length 2.54) (name "A" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))) (pin input line (at 0.0 3.81 270) (length 2.54) (name "C" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Capacitors:UPW1J121MPD__POWER__C2" (pin_names (offset 1.016)) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "C" (id 0) (at 6.61035 6.35 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "UPW1J121MPD" (id 1) (at 6.61035 -6.35 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:CAP-TH_BD10.0-P5.00-D1.0-FD__989eb5f5-13df-531b-9d4e-973b5e3bed29" (id 2) (at 6.61035 -8.89 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 6.61035 -11.43 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "UPW1J121MPD__POWER__C2_0_1" 
+
+(polyline (pts 
+
+(xy 2.032 0.762) 
+
+(xy -2.032 0.762)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 2.032 -0.762) 
+
+(xy 1.524 -0.53975) 
+
+(xy 1.016 -0.381) 
+
+(xy 0.508 -0.28575) 
+
+(xy 0.0 -0.254) 
+
+(xy -0.508 -0.28575) 
+
+(xy -1.016 -0.381) 
+
+(xy -1.524 -0.53975) 
+
+(xy -2.032 -0.762)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 0.0 2.54) 
+
+(xy 0.0 0.762)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 0.0 -0.762) 
+
+(xy 0.0 -2.54)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "UPW1J121MPD__POWER__C2_1_1" (pin unspecified line (at 0.0 3.81 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 0.0 -3.81 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Power_Management_ICs:AMS1117-3.3__POWER__U2" (pin_names (offset 1.016)) (in_bom yes) (on_board yes) 
+
+(property "Reference" "U" (id 0) (at 2.54 20.32 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "AMS1117-3.3" (id 1) (at 2.54 -20.32 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR__4923a9ea-4f35-5bf8-a102-666702294f10" (id 2) (at 2.54 -22.86 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 2.54 -25.4 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "AMS1117-3.3__POWER__U2_0_1" 
+
+(polyline (pts 
+
+(xy -12.7 12.7) 
+
+(xy 12.7 12.7) 
+
+(xy 12.947765 12.675597) 
+
+(xy 13.186008 12.603327) 
+
+(xy 13.405574 12.485966) 
+
+(xy 13.598026 12.328026) 
+
+(xy 13.755966 12.135574) 
+
+(xy 13.873327 11.916008) 
+
+(xy 13.945597 11.677765) 
+
+(xy 13.97 11.43) 
+
+(xy 13.97 -11.43) 
+
+(xy 13.945597 -11.677765) 
+
+(xy 13.873327 -11.916008) 
+
+(xy 13.755966 -12.135574) 
+
+(xy 13.598026 -12.328026) 
+
+(xy 13.405574 -12.485966) 
+
+(xy 13.186008 -12.603327) 
+
+(xy 12.947765 -12.675597) 
+
+(xy 12.7 -12.7) 
+
+(xy -12.7 -12.7) 
+
+(xy -12.947765 -12.675597) 
+
+(xy -13.186008 -12.603327) 
+
+(xy -13.405574 -12.485966) 
+
+(xy -13.598026 -12.328026) 
+
+(xy -13.755966 -12.135574) 
+
+(xy -13.873327 -11.916008) 
+
+(xy -13.945597 -11.677765) 
+
+(xy -13.97 -11.43) 
+
+(xy -13.97 11.43) 
+
+(xy -13.945597 11.677765) 
+
+(xy -13.873327 11.916008) 
+
+(xy -13.755966 12.135574) 
+
+(xy -13.598026 12.328026) 
+
+(xy -13.405574 12.485966) 
+
+(xy -13.186008 12.603327) 
+
+(xy -12.947765 12.675597) 
+
+(xy -12.7 12.7)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type background))) (circle (center 0.0 11.176) (radius 0.381) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "AMS1117-3.3__POWER__U2_1_1" (pin output line (at 19.05 2.54 180) (length 5.08) (name "VOUT" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27))))) (pin output line (at 19.05 -2.54 180) (length 5.08) (name "VOUT" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))) (pin power_in line (at 0.0 17.78 270) (length 5.08) (name "VIN" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27))))) (pin power_in line (at 0.0 -17.78 90) (length 5.08) (name "ADJ(GND)" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Device:C__POWER__C5" (pin_names (offset 1.016) hide) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "C" (id 0) (at 1.7526 6.35 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "1u" (id 1) (at 1.7526 -6.35 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:C_0805_2012Metric__7d615c16-99fd-5f2c-a7fb-bef430e16b26" (id 2) (at 1.7526 -8.89 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 1.7526 -11.43 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "C__POWER__C5_0_1" 
+
+(polyline (pts 
+
+(xy -2.032 0.762) 
+
+(xy 2.032 0.762)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -2.032 -0.762) 
+
+(xy 2.032 -0.762)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "C__POWER__C5_1_1" (pin passive line (at 0.0 3.81 270) (length 3.048) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 0.0 -3.81 90) (length 3.048) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Capacitors:TAJA226K010RNJ__POWER__C3" (pin_names (offset 1.016)) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "C" (id 0) (at 8.3439 6.35 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "TAJA226K010RNJ" (id 1) (at 8.3439 -6.35 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:CASE-A_3216__c7bdcc7d-2cc4-5d6c-af69-a123f864e0c8" (id 2) (at 8.3439 -8.89 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 8.3439 -11.43 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "TAJA226K010RNJ__POWER__C3_0_1" 
+
+(polyline (pts 
+
+(xy 2.032 0.762) 
+
+(xy -2.032 0.762)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 2.032 -0.762) 
+
+(xy 1.524 -0.53975) 
+
+(xy 1.016 -0.381) 
+
+(xy 0.508 -0.28575) 
+
+(xy 0.0 -0.254) 
+
+(xy -0.508 -0.28575) 
+
+(xy -1.016 -0.381) 
+
+(xy -1.524 -0.53975) 
+
+(xy -2.032 -0.762)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 0.0 2.54) 
+
+(xy 0.0 0.762)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 0.0 -0.762) 
+
+(xy 0.0 -2.54)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "TAJA226K010RNJ__POWER__C3_1_1" (pin input line (at 0.0 3.81 270) (length 1.27) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin input line (at 0.0 -3.81 90) (length 1.27) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Device:C__POWER__C6" (pin_names (offset 1.016) hide) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "C" (id 0) (at 2.8194 6.35 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "100n" (id 1) (at 2.8194 -6.35 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:C_0603_1608Metric__7369c00a-d209-5a5f-84c8-10a7a71b2c2e" (id 2) (at 2.8194 -8.89 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 2.8194 -11.43 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "C__POWER__C6_0_1" 
+
+(polyline (pts 
+
+(xy -2.032 0.762) 
+
+(xy 2.032 0.762)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -2.032 -0.762) 
+
+(xy 2.032 -0.762)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "C__POWER__C6_1_1" (pin passive line (at 0.0 3.81 270) (length 3.048) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 0.0 -3.81 90) (length 3.048) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Device:R__POWER__R3" (pin_names (offset 1.016) hide) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "R" (id 0) (at 0.0 7.7216 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "0" (id 1) (at 0.0 -7.6327 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:R_1206_3216Metric__adb5e206-efff-522a-b955-1ce9247bca96" (id 2) (at 0.0 -10.1727 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 0.0 -12.7127 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "R__POWER__R3_0_1" 
+
+(polyline (pts 
+
+(xy -2.54 1.016) 
+
+(xy 2.54 1.016) 
+
+(xy 2.54 -1.016) 
+
+(xy -2.54 -1.016) 
+
+(xy -2.54 1.016)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type background)))) 
+
+(symbol "R__POWER__R3_1_1" (pin passive line (at -3.81 -0.0 0) (length 1.27) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 3.81 -0.0 180) (length 1.27) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "power:VIN_EXT__1" (power) (pin_names (offset 0.0)) (pin_numbers hide) (in_bom no) (on_board no) 
+
+(property "Reference" "#PWR" (id 0) (at 0.0 4.318 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Value" "VIN_EXT" (id 1) (at 0.0 -2.54 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (id 2) (at 0.0 -5.08 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 0.0 -7.62 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "VIN_EXT__1_0_1" 
+
+(polyline (pts 
+
+(xy 0.0 -0.0) 
+
+(xy 0.0 1.778)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -1.016 1.778) 
+
+(xy 1.016 1.778)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "VIN_EXT__1_1_1" (pin power_in line (at 0.0 0.0 90) (length 0.0) hide (name "VIN_EXT" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "power:VIN24__2" (power) (pin_names (offset 0.0)) (pin_numbers hide) (in_bom no) (on_board no) 
+
+(property "Reference" "#PWR" (id 0) (at 0.0 4.318 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Value" "VIN24" (id 1) (at 0.0 -2.54 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (id 2) (at 0.0 -5.08 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 0.0 -7.62 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "VIN24__2_0_1" 
+
+(polyline (pts 
+
+(xy 0.0 -0.0) 
+
+(xy 0.0 1.778)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -1.016 1.778) 
+
+(xy 1.016 1.778)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "VIN24__2_1_1" (pin power_in line (at 0.0 0.0 90) (length 0.0) hide (name "VIN24" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "power:PGND__3" (power) (pin_names (offset 0.0)) (pin_numbers hide) (in_bom no) (on_board no) 
+
+(property "Reference" "#PWR" (id 0) (at 0.0 2.54 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Value" "PGND" (id 1) (at 0.0 -4.826 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (id 2) (at 0.0 -7.366 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 0.0 -9.906 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "PGND__3_0_1" 
+
+(polyline (pts 
+
+(xy 0.0 -0.0) 
+
+(xy 0.0 -1.27)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -1.27 -1.27) 
+
+(xy 1.27 -1.27)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -0.762 -1.778) 
+
+(xy 0.762 -1.778)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -0.381 -2.286) 
+
+(xy 0.381 -2.286)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "PGND__3_1_1" (pin power_in line (at 0.0 0.0 270) (length 0.0) hide (name "PGND" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "power:PGND__4" (power) (pin_names (offset 0.0)) (pin_numbers hide) (in_bom no) (on_board no) 
+
+(property "Reference" "#PWR" (id 0) (at 0.0 2.54 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Value" "PGND" (id 1) (at 0.0 -4.826 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (id 2) (at 0.0 -7.366 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 0.0 -9.906 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "PGND__4_0_1" 
+
+(polyline (pts 
+
+(xy 0.0 -0.0) 
+
+(xy 0.0 -1.27)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -1.27 -1.27) 
+
+(xy 1.27 -1.27)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -0.762 -1.778) 
+
+(xy 0.762 -1.778)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -0.381 -2.286) 
+
+(xy 0.381 -2.286)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "PGND__4_1_1" (pin power_in line (at 0.0 0.0 270) (length 0.0) hide (name "PGND" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "power:PGND__5" (power) (pin_names (offset 0.0)) (pin_numbers hide) (in_bom no) (on_board no) 
+
+(property "Reference" "#PWR" (id 0) (at 0.0 2.54 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Value" "PGND" (id 1) (at 0.0 -4.826 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (id 2) (at 0.0 -7.366 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 0.0 -9.906 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "PGND__5_0_1" 
+
+(polyline (pts 
+
+(xy 0.0 -0.0) 
+
+(xy 0.0 -1.27)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -1.27 -1.27) 
+
+(xy 1.27 -1.27)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -0.762 -1.778) 
+
+(xy 0.762 -1.778)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -0.381 -2.286) 
+
+(xy 0.381 -2.286)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "PGND__5_1_1" (pin power_in line (at 0.0 0.0 270) (length 0.0) hide (name "PGND" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "power:VIN24__6" (power) (pin_names (offset 0.0)) (pin_numbers hide) (in_bom no) (on_board no) 
+
+(property "Reference" "#PWR" (id 0) (at 0.0 4.318 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Value" "VIN24" (id 1) (at 0.0 -2.54 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (id 2) (at 0.0 -5.08 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 0.0 -7.62 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "VIN24__6_0_1" 
+
+(polyline (pts 
+
+(xy 0.0 -0.0) 
+
+(xy 0.0 1.778)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -1.016 1.778) 
+
+(xy 1.016 1.778)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "VIN24__6_1_1" (pin power_in line (at 0.0 0.0 90) (length 0.0) hide (name "VIN24" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "power:PGND__7" (power) (pin_names (offset 0.0)) (pin_numbers hide) (in_bom no) (on_board no) 
+
+(property "Reference" "#PWR" (id 0) (at 0.0 2.54 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Value" "PGND" (id 1) (at 0.0 -4.826 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (id 2) (at 0.0 -7.366 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 0.0 -9.906 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "PGND__7_0_1" 
+
+(polyline (pts 
+
+(xy 0.0 -0.0) 
+
+(xy 0.0 -1.27)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -1.27 -1.27) 
+
+(xy 1.27 -1.27)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -0.762 -1.778) 
+
+(xy 0.762 -1.778)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -0.381 -2.286) 
+
+(xy 0.381 -2.286)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "PGND__7_1_1" (pin power_in line (at 0.0 0.0 270) (length 0.0) hide (name "PGND" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "power:PGND__8" (power) (pin_names (offset 0.0)) (pin_numbers hide) (in_bom no) (on_board no) 
+
+(property "Reference" "#PWR" (id 0) (at 0.0 2.54 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Value" "PGND" (id 1) (at 0.0 -4.826 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (id 2) (at 0.0 -7.366 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 0.0 -9.906 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "PGND__8_0_1" 
+
+(polyline (pts 
+
+(xy 0.0 -0.0) 
+
+(xy 0.0 -1.27)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -1.27 -1.27) 
+
+(xy 1.27 -1.27)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -0.762 -1.778) 
+
+(xy 0.762 -1.778)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -0.381 -2.286) 
+
+(xy 0.381 -2.286)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "PGND__8_1_1" (pin power_in line (at 0.0 0.0 270) (length 0.0) hide (name "PGND" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "power:PGND__9" (power) (pin_names (offset 0.0)) (pin_numbers hide) (in_bom no) (on_board no) 
+
+(property "Reference" "#PWR" (id 0) (at 0.0 2.54 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Value" "PGND" (id 1) (at 0.0 -4.826 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (id 2) (at 0.0 -7.366 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 0.0 -9.906 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "PGND__9_0_1" 
+
+(polyline (pts 
+
+(xy 0.0 -0.0) 
+
+(xy 0.0 -1.27)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -1.27 -1.27) 
+
+(xy 1.27 -1.27)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -0.762 -1.778) 
+
+(xy 0.762 -1.778)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -0.381 -2.286) 
+
+(xy 0.381 -2.286)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "PGND__9_1_1" (pin power_in line (at 0.0 0.0 270) (length 0.0) hide (name "PGND" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "power:V5__10" (power) (pin_names (offset 0.0)) (pin_numbers hide) (in_bom no) (on_board no) 
+
+(property "Reference" "#PWR" (id 0) (at 0.0 4.318 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Value" "V5" (id 1) (at 0.0 -2.54 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (id 2) (at 0.0 -5.08 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 0.0 -7.62 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "V5__10_0_1" 
+
+(polyline (pts 
+
+(xy 0.0 -0.0) 
+
+(xy 0.0 1.778)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -1.016 1.778) 
+
+(xy 1.016 1.778)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "V5__10_1_1" (pin power_in line (at 0.0 0.0 90) (length 0.0) hide (name "V5" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "power:V5__11" (power) (pin_names (offset 0.0)) (pin_numbers hide) (in_bom no) (on_board no) 
+
+(property "Reference" "#PWR" (id 0) (at 0.0 4.318 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Value" "V5" (id 1) (at 0.0 -2.54 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (id 2) (at 0.0 -5.08 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 0.0 -7.62 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "V5__11_0_1" 
+
+(polyline (pts 
+
+(xy 0.0 -0.0) 
+
+(xy 0.0 1.778)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -1.016 1.778) 
+
+(xy 1.016 1.778)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "V5__11_1_1" (pin power_in line (at 0.0 0.0 90) (length 0.0) hide (name "V5" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "power:DGND__12" (power) (pin_names (offset 0.0)) (pin_numbers hide) (in_bom no) (on_board no) 
+
+(property "Reference" "#PWR" (id 0) (at 0.0 2.54 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Value" "DGND" (id 1) (at 0.0 -4.826 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (id 2) (at 0.0 -7.366 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 0.0 -9.906 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "DGND__12_0_1" 
+
+(polyline (pts 
+
+(xy 0.0 -0.0) 
+
+(xy 0.0 -1.27)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -1.27 -1.27) 
+
+(xy 1.27 -1.27)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -0.762 -1.778) 
+
+(xy 0.762 -1.778)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -0.381 -2.286) 
+
+(xy 0.381 -2.286)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "DGND__12_1_1" (pin power_in line (at 0.0 0.0 270) (length 0.0) hide (name "DGND" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "power:DGND__13" (power) (pin_names (offset 0.0)) (pin_numbers hide) (in_bom no) (on_board no) 
+
+(property "Reference" "#PWR" (id 0) (at 0.0 2.54 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Value" "DGND" (id 1) (at 0.0 -4.826 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (id 2) (at 0.0 -7.366 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 0.0 -9.906 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "DGND__13_0_1" 
+
+(polyline (pts 
+
+(xy 0.0 -0.0) 
+
+(xy 0.0 -1.27)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -1.27 -1.27) 
+
+(xy 1.27 -1.27)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -0.762 -1.778) 
+
+(xy 0.762 -1.778)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -0.381 -2.286) 
+
+(xy 0.381 -2.286)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "DGND__13_1_1" (pin power_in line (at 0.0 0.0 270) (length 0.0) hide (name "DGND" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "power:V3V3__14" (power) (pin_names (offset 0.0)) (pin_numbers hide) (in_bom no) (on_board no) 
+
+(property "Reference" "#PWR" (id 0) (at 0.0 4.318 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Value" "V3V3" (id 1) (at 0.0 -2.54 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (id 2) (at 0.0 -5.08 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 0.0 -7.62 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "V3V3__14_0_1" 
+
+(polyline (pts 
+
+(xy 0.0 -0.0) 
+
+(xy 0.0 1.778)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -1.016 1.778) 
+
+(xy 1.016 1.778)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "V3V3__14_1_1" (pin power_in line (at 0.0 0.0 90) (length 0.0) hide (name "V3V3" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "power:DGND__15" (power) (pin_names (offset 0.0)) (pin_numbers hide) (in_bom no) (on_board no) 
+
+(property "Reference" "#PWR" (id 0) (at 0.0 2.54 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Value" "DGND" (id 1) (at 0.0 -4.826 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (id 2) (at 0.0 -7.366 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 0.0 -9.906 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "DGND__15_0_1" 
+
+(polyline (pts 
+
+(xy 0.0 -0.0) 
+
+(xy 0.0 -1.27)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -1.27 -1.27) 
+
+(xy 1.27 -1.27)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -0.762 -1.778) 
+
+(xy 0.762 -1.778)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -0.381 -2.286) 
+
+(xy 0.381 -2.286)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "DGND__15_1_1" (pin power_in line (at 0.0 0.0 270) (length 0.0) hide (name "DGND" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "power:PGND__16" (power) (pin_names (offset 0.0)) (pin_numbers hide) (in_bom no) (on_board no) 
+
+(property "Reference" "#PWR" (id 0) (at 0.0 2.54 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Value" "PGND" (id 1) (at 0.0 -4.826 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (id 2) (at 0.0 -7.366 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 0.0 -9.906 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "PGND__16_0_1" 
+
+(polyline (pts 
+
+(xy 0.0 -0.0) 
+
+(xy 0.0 -1.27)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -1.27 -1.27) 
+
+(xy 1.27 -1.27)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -0.762 -1.778) 
+
+(xy 0.762 -1.778)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -0.381 -2.286) 
+
+(xy 0.381 -2.286)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "PGND__16_1_1" (pin power_in line (at 0.0 0.0 270) (length 0.0) hide (name "PGND" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "power:DGND__17" (power) (pin_names (offset 0.0)) (pin_numbers hide) (in_bom no) (on_board no) 
+
+(property "Reference" "#PWR" (id 0) (at 0.0 2.54 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Value" "DGND" (id 1) (at 0.0 -4.826 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (id 2) (at 0.0 -7.366 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 0.0 -9.906 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "DGND__17_0_1" 
+
+(polyline (pts 
+
+(xy 0.0 -0.0) 
+
+(xy 0.0 -1.27)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -1.27 -1.27) 
+
+(xy 1.27 -1.27)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -0.762 -1.778) 
+
+(xy 0.762 -1.778)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -0.381 -2.286) 
+
+(xy 0.381 -2.286)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "DGND__17_1_1" (pin power_in line (at 0.0 0.0 270) (length 0.0) hide (name "DGND" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))))) 
+
+(symbol (lib_id "Connectors:DB2ERC-3.5-2P-GN__POWER__J1") (at 34.29 31.75 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "4281548e-99b0-4fb5-9f43-901588303698") 
+
+(property "Reference" "J1" (at 34.29 25.273 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "DB2ERC-3.5-2P-GN" (at 34.29 38.227 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:CONN-TH_2P-P3.50_DB2ERC-3.5-2P__2995fda3-b48a-5eb8-a601-7b29d1a1c2ab" (at 34.29 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 34.29 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Connectors" (at 34.29 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "DB2ERC-3.5-2P-GN" (at 34.29 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_FOOTPRINT" "CONN-TH_2P-P3.50_DB2ERC-3.5-2P" (at 34.29 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_ID" "pcb:CONN-TH_2P-P3.50_DB2ERC-3.5-2P" (at 34.29 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "CONN-TH_2P-P3.50_DB2ERC-3.5-2P" (at 34.29 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_PIN_PAD_MAPPING" "{\"1\": [\"1\"], \"2\": [\"2\"]}" (at 34.29 31.75 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "838a9cac-66ab-4041-b786-2f6a81a13bc4")) (pin "2" (uuid "cb79efcd-72d9-4f52-aade-db80c5a82228")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e" (reference "J1") (unit 1))))) 
+
+(symbol (lib_id "Circuit_Protection:0451010.MRL__POWER__F1") (at 52.07 29.21 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "03d7d03e-e3d9-4def-a6e2-1c3808299d1d") 
+
+(property "Reference" "F1" (at 51.562 25.273 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "0451010.MRL" (at 52.578 25.273 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:FUSE-SMD_L6.1-W2.7__4da57688-a21a-5595-b6e4-d733cec20194" (at 52.07 29.21 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 52.07 29.21 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Circuit_Protection" (at 52.07 29.21 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "0451010.MRL" (at 52.07 29.21 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_FOOTPRINT" "FUSE-SMD_L6.1-W2.7" (at 52.07 29.21 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_ID" "pcb:FUSE-SMD_L6.1-W2.7" (at 52.07 29.21 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "FUSE-SMD_L6.1-W2.7" (at 52.07 29.21 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_PIN_PAD_MAPPING" "{\"1\": [\"1\"], \"2\": [\"2\"]}" (at 52.07 29.21 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "570f446f-7d78-4262-a4c3-b105da3cd2c4")) (pin "2" (uuid "eaa26b9d-6909-4921-b6b5-abf5b0f20dd2")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e" (reference "F1") (unit 1))))) 
+
+(symbol (lib_id "Transistors_Thyristors:SUD50P06-15_UMW__POWER__Q1") (at 76.2 29.21 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "89597105-cf9f-43ca-ac57-17f1e11b39e3") 
+
+(property "Reference" "Q1" (at 75.692 34.417 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "SUD50P06-15(UMW)" (at 76.708 34.417 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:TO-252-2_L6.6-W6.1-P4.58-LS9.9-TL__a6c299c1-62ee-576f-a3d2-456f42c18ec5" (at 76.2 29.21 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 76.2 29.21 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Transistors_Thyristors" (at 76.2 29.21 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "SUD50P06-15(UMW)" (at 76.2 29.21 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_FOOTPRINT" "TO-252-2_L6.6-W6.1-P4.58-LS9.9-TL" (at 76.2 29.21 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_ID" "pcb:TO-252-2_L6.6-W6.1-P4.58-LS9.9-TL" (at 76.2 29.21 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "TO-252-2_L6.6-W6.1-P4.58-LS9.9-TL" (at 76.2 29.21 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_PIN_PAD_MAPPING" "{\"1\": [\"1\"], \"2\": [\"2\"], \"3\": [\"3\"]}" (at 76.2 29.21 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "addeac6d-2295-4e65-8ece-9b76e3fcbf18")) (pin "2" (uuid "2c8c16b3-a976-45a1-a5a3-f3d77a02f17c")) (pin "3" (uuid "6f0a28ba-070b-4675-adc1-0fb32c3e5bf4")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e" (reference "Q1") (unit 1))))) 
+
+(symbol (lib_id "Transistors_Thyristors:SUD50P06-15_UMW__POWER__Q2") (at 76.2 45.72 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "0ee8dacc-012f-440e-bd08-d5493735b39d") 
+
+(property "Reference" "Q2" (at 75.692 50.927 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "SUD50P06-15(UMW)" (at 76.708 50.927 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:TO-252-2_L6.6-W6.1-P4.58-LS9.9-TL__0743d905-2182-5400-ae7f-cc82ef00091f" (at 76.2 45.72 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 76.2 45.72 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Transistors_Thyristors" (at 76.2 45.72 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "SUD50P06-15(UMW)" (at 76.2 45.72 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_FOOTPRINT" "TO-252-2_L6.6-W6.1-P4.58-LS9.9-TL" (at 76.2 45.72 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_ID" "pcb:TO-252-2_L6.6-W6.1-P4.58-LS9.9-TL" (at 76.2 45.72 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "TO-252-2_L6.6-W6.1-P4.58-LS9.9-TL" (at 76.2 45.72 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_PIN_PAD_MAPPING" "{\"1\": [\"1\"], \"2\": [\"2\"], \"3\": [\"3\"]}" (at 76.2 45.72 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "ed99c1d2-ba00-4c48-8520-fd5598f4e598")) (pin "2" (uuid "df7bcab0-e5ba-4392-85aa-deea510c4631")) (pin "3" (uuid "522ada8b-0622-4874-91c5-2437fa0fdfe4")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e" (reference "Q2") (unit 1))))) 
+
+(symbol (lib_id "Diodes:BZT52C12__POWER__D1") (at 101.6 53.34 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "cc6d80a8-f2cf-4be2-8af0-c120b27a6d56") 
+
+(property "Reference" "D1" (at 98.552 52.197 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "BZT52C12" (at 98.552 54.483 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:SOD-123_L2.7-W1.6-LS3.7-RD__64490b2b-6479-5d31-9c47-fd89c63ab337" (at 101.6 53.34 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 101.6 53.34 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Diodes" (at 101.6 53.34 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "BZT52C12" (at 101.6 53.34 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_FOOTPRINT" "SOD-123_L2.7-W1.7-LS3.8-RD" (at 101.6 53.34 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_ID" "pcb:SOD-123_L2.7-W1.6-LS3.7-RD" (at 101.6 53.34 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "SOD-123_L2.7-W1.6-LS3.7-RD" (at 101.6 53.34 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_PIN_PAD_MAPPING" "{\"1\": [\"1\"], \"2\": [\"2\"]}" (at 101.6 53.34 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "2" (uuid "a54b1cd3-f965-4ddc-a359-af621e77c5de")) (pin "1" (uuid "c96641a8-08c4-41ca-9e4d-b475f2d45e28")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e" (reference "D1") (unit 1))))) 
+
+(symbol (lib_id "Device:R__POWER__R2") (at 118.11 53.34 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "cce718ae-df82-481b-b51a-e6029c29a207") 
+
+(property "Reference" "R2" (at 121.158 52.197 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "100k" (at 121.158 54.483 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:R_0603_1608Metric__3177dc4e-0055-526f-b5b1-42846782a051" (at 118.11 53.34 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 118.11 53.34 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Device" (at 118.11 53.34 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "R" (at 118.11 53.34 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "R_0603_1608Metric" (at 118.11 53.34 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_PIN_PAD_MAPPING" "{\"1\": [\"1\"], \"2\": [\"2\"]}" (at 118.11 53.34 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "d8402a7e-4764-44ef-a86b-47971dd2be6a")) (pin "2" (uuid "90326f96-7c95-4d68-ab64-e5dae050f2f7")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e" (reference "R2") (unit 1))))) 
+
+(symbol (lib_id "Device:R__POWER__R1") (at 87.63 66.04 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "330e3892-33e4-4b86-9597-bf513d713309") 
+
+(property "Reference" "R1" (at 90.678 64.897 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "4.7k" (at 90.678 67.183 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:R_1206_3216Metric__23367e4e-be16-5aa2-a8ed-3adeb61633d7" (at 87.63 66.04 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 87.63 66.04 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Device" (at 87.63 66.04 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "R" (at 87.63 66.04 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "R_1206_3216Metric" (at 87.63 66.04 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_PIN_PAD_MAPPING" "{\"1\": [\"1\"], \"2\": [\"2\"]}" (at 87.63 66.04 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "7b29013d-7d6e-4f2a-a9d7-141ba796b675")) (pin "2" (uuid "8015e758-8500-4724-9701-f24292a36553")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e" (reference "R1") (unit 1))))) 
+
+(symbol (lib_id "Circuit_Protection:SMBJ28A__POWER__D2") (at 137.16 53.34 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "122d2194-9226-4b00-a73d-e38e7a60ba10") 
+
+(property "Reference" "D2" (at 140.208 52.197 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "SMBJ28A" (at 140.208 54.483 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:SMB_L4.6-W3.6-LS5.4-RD__8522bdaa-25bf-5d30-9724-65d2b4cd3d17" (at 137.16 53.34 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 137.16 53.34 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Circuit_Protection" (at 137.16 53.34 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "SMBJ28A" (at 137.16 53.34 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_FOOTPRINT" "SMB_L4.3-W3.6-LS5.4-R-RD" (at 137.16 53.34 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_ID" "pcb:SMB_L4.6-W3.6-LS5.4-RD" (at 137.16 53.34 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "SMB_L4.6-W3.6-LS5.4-RD" (at 137.16 53.34 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_PIN_PAD_MAPPING" "{\"1\": [\"1\"], \"2\": [\"2\"]}" (at 137.16 53.34 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "2" (uuid "dd8e3659-4dba-435c-871b-7cdc816b18db")) (pin "1" (uuid "7b5a307e-7586-47d5-8ac1-fe1876d7eba5")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e" (reference "D2") (unit 1))))) 
+
+(symbol (lib_id "Power_Management_ICs:LM2594HVMX-5.0_NOPB__POWER__U1") (at 80.01 106.68 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "41297ebc-5001-44fb-ba11-be080dd46957") 
+
+(property "Reference" "U1" (at 80.01 104.8385 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "LM2594HVMX-5.0/NOPB" (at 80.01 108.5215 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL__118041f4-5891-569f-acbf-de397872f5a7" (at 80.01 106.68 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 80.01 106.68 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Power_Management_ICs" (at 80.01 106.68 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "LM2594HVMX-5.0/NOPB" (at 80.01 106.68 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_FOOTPRINT" "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL" (at 80.01 106.68 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_ID" "pcb:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL" (at 80.01 106.68 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL" (at 80.01 106.68 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_PIN_PAD_MAPPING" "{\"1\": [\"1\"], \"2\": [\"2\"], \"3\": [\"3\"], \"4\": [\"4\"], \"5\": [\"5\"], \"6\": [\"6\"], \"7\": [\"7\"], \"8\": [\"8\"]}" (at 80.01 106.68 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "591663e1-7ad4-4737-a921-39bcffa13a6a")) (pin "2" (uuid "7826b216-149f-4fd9-ac3c-242cf751210b")) (pin "3" (uuid "f6d0cd62-2ea4-4b37-97c9-b38e1831f4ab")) (pin "8" (uuid "5156b0b7-391c-4efd-a985-63ba49d02658")) (pin "4" (uuid "55eede2e-145a-4440-b9e6-93500e971cf2")) (pin "7" (uuid "0a932dd5-4a4d-4221-a083-8e2b01fb6abc")) (pin "5" (uuid "ee4f0c86-85ec-4ffe-91ab-ab7282ff18a0")) (pin "6" (uuid "596d9168-f1ac-4b17-88c7-a69194537402")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e" (reference "U1") (unit 1))))) 
+
+(symbol (lib_id "Capacitors:UPW1J121MPD__POWER__C1") (at 39.37 78.74 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "1596bac8-95c2-454b-bc3f-41364eeedc16") 
+
+(property "Reference" "C1" (at 42.418 77.597 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "UPW1J121MPD" (at 42.418 79.883 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:CAP-TH_BD10.0-P5.00-D1.0-FD__3727d51d-779b-5e6d-bc05-8b4f8afd8cc0" (at 39.37 78.74 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 39.37 78.74 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Capacitors" (at 39.37 78.74 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "UPW1J121MPD" (at 39.37 78.74 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_FOOTPRINT" "CAP-TH_BD10.0-P5.00-D1.0-FD" (at 39.37 78.74 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_ID" "pcb:CAP-TH_BD10.0-P5.00-D1.0-FD" (at 39.37 78.74 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "CAP-TH_BD10.0-P5.00-D1.0-FD" (at 39.37 78.74 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_PIN_PAD_MAPPING" "{\"1\": [\"1\"], \"2\": [\"2\"]}" (at 39.37 78.74 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "5dcf0a0a-96b2-4a6b-b495-0e8e088c6190")) (pin "2" (uuid "2460eee7-19eb-4f01-ab01-5a5777c7045b")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e" (reference "C1") (unit 1))))) 
+
+(symbol (lib_id "Device:C__POWER__C4") (at 59.69 78.74 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "942df2e8-44a1-494a-af60-7411390a1607") 
+
+(property "Reference" "C4" (at 62.738 77.597 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "100n" (at 62.738 79.883 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:C_0805_2012Metric__49de1c5b-999b-548d-b890-d620ad457c63" (at 59.69 78.74 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 59.69 78.74 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Device" (at 59.69 78.74 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "C" (at 59.69 78.74 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "C_0805_2012Metric" (at 59.69 78.74 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_PIN_PAD_MAPPING" "{\"1\": [\"1\"], \"2\": [\"2\"]}" (at 59.69 78.74 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "c0430fe0-b451-4dff-8b41-3a53272c4058")) (pin "2" (uuid "26598dbe-4928-402e-b86a-4a6cd4253660")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e" (reference "C4") (unit 1))))) 
+
+(symbol (lib_id "Inductors_Coils_Transformers:SMDRI127-151MT__POWER__L1") (at 124.46 104.14 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "4d7d8aa2-a860-4161-8fb1-d554f6fc6ca1") 
+
+(property "Reference" "L1" (at 123.952 101.473 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "SMDRI127-151MT" (at 124.968 101.473 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:IND-SMD_L12.3-W12.3__e7fe8bee-c908-523c-8c88-c2de2bf4253d" (at 124.46 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 124.46 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Inductors_Coils_Transformers" (at 124.46 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "SMDRI127-151MT" (at 124.46 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_FOOTPRINT" "IND-SMD_L12.3-W12.3" (at 124.46 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_ID" "pcb:IND-SMD_L12.3-W12.3" (at 124.46 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "IND-SMD_L12.3-W12.3" (at 124.46 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_PIN_PAD_MAPPING" "{\"1\": [\"1\"], \"2\": [\"2\"]}" (at 124.46 104.14 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "85fdfc03-42d9-46a7-babd-2c9aa7b30dc1")) (pin "2" (uuid "c90b1058-4364-4431-8e57-a6f53def88c9")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e" (reference "L1") (unit 1))))) 
+
+(symbol (lib_id "Diodes:SS56__POWER__D3") (at 113.03 118.11 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "5139ce6d-fdc8-4e81-b05f-26f6196ef48c") 
+
+(property "Reference" "D3" (at 116.078 116.967 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "SS56" (at 116.078 119.253 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:SMA_L4.3-W2.6-LS5.0-RD__b471d17a-2540-55e9-bcda-7ef2378a31f6" (at 113.03 118.11 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 113.03 118.11 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Diodes" (at 113.03 118.11 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "SS56" (at 113.03 118.11 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_FOOTPRINT" "SMA_L4.3-W2.5-LS5.0-RD" (at 113.03 118.11 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_ID" "pcb:SMA_L4.3-W2.6-LS5.0-RD" (at 113.03 118.11 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "SMA_L4.3-W2.6-LS5.0-RD" (at 113.03 118.11 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_PIN_PAD_MAPPING" "{\"1\": [\"1\"], \"2\": [\"2\"]}" (at 113.03 118.11 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "2" (uuid "d223c12c-aff9-4470-9cf5-9db674ad2c46")) (pin "1" (uuid "c6d8f59a-63c8-4493-8862-0334116860fb")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e" (reference "D3") (unit 1))))) 
+
+(symbol (lib_id "Capacitors:UPW1J121MPD__POWER__C2") (at 146.05 111.76 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "557b27ed-ff0e-4d4a-b519-94dc84dba617") 
+
+(property "Reference" "C2" (at 149.098 110.617 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "UPW1J121MPD" (at 149.098 112.903 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:CAP-TH_BD10.0-P5.00-D1.0-FD__989eb5f5-13df-531b-9d4e-973b5e3bed29" (at 146.05 111.76 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 146.05 111.76 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Capacitors" (at 146.05 111.76 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "UPW1J121MPD" (at 146.05 111.76 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_FOOTPRINT" "CAP-TH_BD10.0-P5.00-D1.0-FD" (at 146.05 111.76 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_ID" "pcb:CAP-TH_BD10.0-P5.00-D1.0-FD" (at 146.05 111.76 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "CAP-TH_BD10.0-P5.00-D1.0-FD" (at 146.05 111.76 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_PIN_PAD_MAPPING" "{\"1\": [\"1\"], \"2\": [\"2\"]}" (at 146.05 111.76 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "7684685a-ed40-4ce6-9777-8be7b5a25691")) (pin "2" (uuid "61c72a1b-b578-4fca-9fab-e7ce2a3bcd6e")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e" (reference "C2") (unit 1))))) 
+
+(symbol (lib_id "Power_Management_ICs:AMS1117-3.3__POWER__U2") (at 90.17 163.83 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "5731ac26-52e6-49ea-83e0-3729dbff90a7") 
+
+(property "Reference" "U2" (at 90.17 161.9885 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "AMS1117-3.3" (at 90.17 165.6715 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR__4923a9ea-4f35-5bf8-a102-666702294f10" (at 90.17 163.83 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 90.17 163.83 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Power_Management_ICs" (at 90.17 163.83 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "AMS1117-3.3" (at 90.17 163.83 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_FOOTPRINT" "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR" (at 90.17 163.83 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_ID" "pcb:SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR" (at 90.17 163.83 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR" (at 90.17 163.83 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_PIN_PAD_MAPPING" "{\"1\": [\"1\"], \"2\": [\"2\"], \"3\": [\"3\"], \"4\": [\"4\"]}" (at 90.17 163.83 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "4" (uuid "fbb1a26e-9bcc-4e44-948a-f04409fcf1c2")) (pin "2" (uuid "d18c6232-ef97-4c0a-98ce-5542b99ee1de")) (pin "3" (uuid "2bcfa02d-822d-48f8-a9b6-1be127077d1a")) (pin "1" (uuid "0badba91-6d6b-42db-8fe7-b724f7abe459")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e" (reference "U2") (unit 1))))) 
+
+(symbol (lib_id "Device:C__POWER__C5") (at 58.42 151.13 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "e711548b-c590-41f7-81a0-81947c7da688") 
+
+(property "Reference" "C5" (at 61.468 149.987 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "1u" (at 61.468 152.273 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:C_0805_2012Metric__7d615c16-99fd-5f2c-a7fb-bef430e16b26" (at 58.42 151.13 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 58.42 151.13 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Device" (at 58.42 151.13 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "C" (at 58.42 151.13 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "C_0805_2012Metric" (at 58.42 151.13 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_PIN_PAD_MAPPING" "{\"1\": [\"1\"], \"2\": [\"2\"]}" (at 58.42 151.13 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "19a2bb90-737d-408b-ab4d-7b8d7e7a4132")) (pin "2" (uuid "787d9f13-8c7f-41dd-a158-138f7a5072c8")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e" (reference "C5") (unit 1))))) 
+
+(symbol (lib_id "Capacitors:TAJA226K010RNJ__POWER__C3") (at 125.73 167.64 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "5d5a4dd0-c943-4303-b6ad-1373157fb022") 
+
+(property "Reference" "C3" (at 128.778 166.497 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "TAJA226K010RNJ" (at 128.778 168.783 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:CASE-A_3216__c7bdcc7d-2cc4-5d6c-af69-a123f864e0c8" (at 125.73 167.64 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 125.73 167.64 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Capacitors" (at 125.73 167.64 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "TAJA226K010RNJ" (at 125.73 167.64 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_FOOTPRINT" "CASE-A_3216" (at 125.73 167.64 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_ID" "pcb:CASE-A_3216" (at 125.73 167.64 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "CASE-A_3216" (at 125.73 167.64 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_PIN_PAD_MAPPING" "{\"1\": [\"1\"], \"2\": [\"2\"]}" (at 125.73 167.64 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "c720bdf2-bf28-4b41-874a-17c2d21c4cd5")) (pin "2" (uuid "1da0bf2d-f1ac-4cd7-868c-e18dd6bee7e4")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e" (reference "C3") (unit 1))))) 
+
+(symbol (lib_id "Device:C__POWER__C6") (at 151.13 167.64 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "ba67f67a-b4fd-4702-83c4-907c63d29b38") 
+
+(property "Reference" "C6" (at 154.178 166.497 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "100n" (at 154.178 168.783 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:C_0603_1608Metric__7369c00a-d209-5a5f-84c8-10a7a71b2c2e" (at 151.13 167.64 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 151.13 167.64 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Device" (at 151.13 167.64 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "C" (at 151.13 167.64 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "C_0603_1608Metric" (at 151.13 167.64 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_PIN_PAD_MAPPING" "{\"1\": [\"1\"], \"2\": [\"2\"]}" (at 151.13 167.64 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "5975c571-28fc-400a-8422-ad943547f8b3")) (pin "2" (uuid "816f761d-19fc-431b-8a39-18833b5e0fe6")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e" (reference "C6") (unit 1))))) 
+
+(symbol (lib_id "Device:R__POWER__R3") (at 43.18 175.26 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "877f3503-1e19-4db9-9868-c7726a9b7067") 
+
+(property "Reference" "R3" (at 43.18 171.323 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "0" (at 43.18 179.197 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:R_1206_3216Metric__adb5e206-efff-522a-b955-1ce9247bca96" (at 43.18 175.26 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 43.18 175.26 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Device" (at 43.18 175.26 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "R" (at 43.18 175.26 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "R_1206_3216Metric" (at 43.18 175.26 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_PIN_PAD_MAPPING" "{\"1\": [\"1\"], \"2\": [\"2\"]}" (at 43.18 175.26 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "66e16c3e-9997-4326-afb8-fef00658561a")) (pin "2" (uuid "163d8e8e-7638-420f-b859-5ba622053a45")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e" (reference "R3") (unit 1))))) 
+
+(symbol (lib_id "power:VIN_EXT__1") (at 44.45 25.4 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (fields_autoplaced yes) (uuid "0d1d0732-28ec-4f45-862d-86343d4ebcc2") 
+
+(property "Reference" "#PWR1" (at 44.45 25.4 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Value" "VIN_EXT" (at 44.45 22.606 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 44.45 25.4 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 44.45 25.4 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "power" (at 44.45 25.4 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "VIN_EXT" (at 44.45 25.4 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "287b3b7d-5a0f-4a0a-a9a3-2e8fe9bd9587")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e" (reference "#PWR1") (unit 1))))) 
+
+(symbol (lib_id "power:VIN24__2") (at 127.0 44.45 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (fields_autoplaced yes) (uuid "cdaa3fab-5c8a-44ac-a2fa-43a0f36221b8") 
+
+(property "Reference" "#PWR2" (at 127.0 44.45 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Value" "VIN24" (at 127.0 41.656 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 127.0 44.45 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 127.0 44.45 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "power" (at 127.0 44.45 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "VIN24" (at 127.0 44.45 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "1d8f47f6-394b-4479-9f2c-8d8c8f1c821b")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e" (reference "#PWR2") (unit 1))))) 
+
+(symbol (lib_id "power:PGND__3") (at 44.45 38.1 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (fields_autoplaced yes) (uuid "67ead52e-6dc1-4caa-bde5-c06ce24baadd") 
+
+(property "Reference" "#PWR3" (at 44.45 38.1 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Value" "PGND" (at 44.45 41.656 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 44.45 38.1 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 44.45 38.1 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "power" (at 44.45 38.1 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "PGND" (at 44.45 38.1 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "3db8d96d-9077-4ee6-af34-adedc228bf37")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e" (reference "#PWR3") (unit 1))))) 
+
+(symbol (lib_id "power:PGND__4") (at 87.63 72.39 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (fields_autoplaced yes) (uuid "958d5488-f084-44ed-bf78-841bd17a416d") 
+
+(property "Reference" "#PWR4" (at 87.63 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Value" "PGND" (at 87.63 75.946 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 87.63 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 87.63 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "power" (at 87.63 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "PGND" (at 87.63 72.39 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "01a128b5-29ec-4552-9890-5129f5c27d64")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e" (reference "#PWR4") (unit 1))))) 
+
+(symbol (lib_id "power:PGND__5") (at 137.16 59.69 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (fields_autoplaced yes) (uuid "ef23a969-9b3b-467e-b6be-8476a7413c5d") 
+
+(property "Reference" "#PWR5" (at 137.16 59.69 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Value" "PGND" (at 137.16 63.246 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 137.16 59.69 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 137.16 59.69 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "power" (at 137.16 59.69 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "PGND" (at 137.16 59.69 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "422722f0-a63f-47b1-aa26-705befc441ca")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e" (reference "#PWR5") (unit 1))))) 
+
+(symbol (lib_id "power:VIN24__6") (at 80.01 85.09 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (fields_autoplaced yes) (uuid "0862f5b0-d229-4e2d-bbe8-488be8743cc8") 
+
+(property "Reference" "#PWR6" (at 80.01 85.09 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Value" "VIN24" (at 80.01 82.296 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 80.01 85.09 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 80.01 85.09 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "power" (at 80.01 85.09 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "VIN24" (at 80.01 85.09 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "e195c6e5-3dd9-45a3-bcd1-3794acdc0072")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e" (reference "#PWR6") (unit 1))))) 
+
+(symbol (lib_id "power:PGND__7") (at 39.37 85.09 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (fields_autoplaced yes) (uuid "0137564b-d0c5-4d37-9e37-4f6ded81eb90") 
+
+(property "Reference" "#PWR7" (at 39.37 85.09 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Value" "PGND" (at 39.37 88.646 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 39.37 85.09 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 39.37 85.09 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "power" (at 39.37 85.09 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "PGND" (at 39.37 85.09 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "aeca91c0-964a-49f1-b615-58586771c3ed")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e" (reference "#PWR7") (unit 1))))) 
+
+(symbol (lib_id "power:PGND__8") (at 80.01 129.54 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (fields_autoplaced yes) (uuid "0a01a501-fc6d-4eb5-bba2-bbf04a0a7bbe") 
+
+(property "Reference" "#PWR8" (at 80.01 129.54 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Value" "PGND" (at 80.01 133.096 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 80.01 129.54 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 80.01 129.54 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "power" (at 80.01 129.54 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "PGND" (at 80.01 129.54 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "73e57073-e72a-4f6e-a8b4-488acbc9d6d1")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e" (reference "#PWR8") (unit 1))))) 
+
+(symbol (lib_id "power:PGND__9") (at 146.05 118.11 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (fields_autoplaced yes) (uuid "38187268-b29d-4ef1-a5c8-9547aa92e674") 
+
+(property "Reference" "#PWR9" (at 146.05 118.11 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Value" "PGND" (at 146.05 121.666 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 146.05 118.11 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 146.05 118.11 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "power" (at 146.05 118.11 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "PGND" (at 146.05 118.11 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "51595dbb-1ecd-4ed3-97ff-78cc1f8bd865")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e" (reference "#PWR9") (unit 1))))) 
+
+(symbol (lib_id "power:V5__10") (at 146.05 100.33 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (fields_autoplaced yes) (uuid "f3d5b5d8-dac2-48ef-b435-4ff2341c9da1") 
+
+(property "Reference" "#PWR10" (at 146.05 100.33 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Value" "V5" (at 146.05 97.536 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 146.05 100.33 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 146.05 100.33 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "power" (at 146.05 100.33 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "V5" (at 146.05 100.33 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "f634b000-cc2a-4415-b0f6-562e85f7341b")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e" (reference "#PWR10") (unit 1))))) 
+
+(symbol (lib_id "power:V5__11") (at 90.17 142.24 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (fields_autoplaced yes) (uuid "ea6d0697-1846-4f1a-92e2-c21808189582") 
+
+(property "Reference" "#PWR11" (at 90.17 142.24 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Value" "V5" (at 90.17 139.446 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 90.17 142.24 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 90.17 142.24 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "power" (at 90.17 142.24 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "V5" (at 90.17 142.24 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "12eba3c9-10d2-4253-9c34-3a09f3b846ae")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e" (reference "#PWR11") (unit 1))))) 
+
+(symbol (lib_id "power:DGND__12") (at 58.42 157.48 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (fields_autoplaced yes) (uuid "ec583a7c-4fc5-4b9c-886b-e8eb9012f89c") 
+
+(property "Reference" "#PWR12" (at 58.42 157.48 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Value" "DGND" (at 58.42 161.036 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 58.42 157.48 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 58.42 157.48 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "power" (at 58.42 157.48 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "DGND" (at 58.42 157.48 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "cda0f4d6-45b2-4b53-b493-66d47a60c04d")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e" (reference "#PWR12") (unit 1))))) 
+
+(symbol (lib_id "power:DGND__13") (at 90.17 184.15 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (fields_autoplaced yes) (uuid "e8a285c1-8437-42d0-bb1f-88db23b078a4") 
+
+(property "Reference" "#PWR13" (at 90.17 184.15 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Value" "DGND" (at 90.17 187.706 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 90.17 184.15 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 90.17 184.15 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "power" (at 90.17 184.15 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "DGND" (at 90.17 184.15 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "a7c2e9c7-088e-480b-86a7-2ba0f8c3f65e")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e" (reference "#PWR13") (unit 1))))) 
+
+(symbol (lib_id "power:V3V3__14") (at 125.73 160.02 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (fields_autoplaced yes) (uuid "f7762a23-74ba-41fd-acac-4845881cb1f7") 
+
+(property "Reference" "#PWR14" (at 125.73 160.02 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Value" "V3V3" (at 125.73 157.226 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 125.73 160.02 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 125.73 160.02 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "power" (at 125.73 160.02 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "V3V3" (at 125.73 160.02 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "916cc31f-ebf7-442f-8b9b-7d952bb1def0")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e" (reference "#PWR14") (unit 1))))) 
+
+(symbol (lib_id "power:DGND__15") (at 125.73 173.99 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (fields_autoplaced yes) (uuid "36a4b292-d059-4155-b19c-92e066c7ed64") 
+
+(property "Reference" "#PWR15" (at 125.73 173.99 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Value" "DGND" (at 125.73 177.546 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 125.73 173.99 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 125.73 173.99 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "power" (at 125.73 173.99 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "DGND" (at 125.73 173.99 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "e6945804-0038-4f84-9c50-7aaf48bd1ec5")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e" (reference "#PWR15") (unit 1))))) 
+
+(symbol (lib_id "power:PGND__16") (at 36.83 181.61 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (fields_autoplaced yes) (uuid "2a2d9120-4fb9-4a47-b2bd-1dd9018aa5f8") 
+
+(property "Reference" "#PWR16" (at 36.83 181.61 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Value" "PGND" (at 36.83 185.166 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 36.83 181.61 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 36.83 181.61 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "power" (at 36.83 181.61 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "PGND" (at 36.83 181.61 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "4aa3877c-5c44-40cc-a89e-a7b22e23edaa")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e" (reference "#PWR16") (unit 1))))) 
+
+(symbol (lib_id "power:DGND__17") (at 49.53 181.61 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (fields_autoplaced yes) (uuid "6f9ab88b-575e-4d97-a8cc-0fa34abe9151") 
+
+(property "Reference" "#PWR17" (at 49.53 181.61 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Value" "DGND" (at 49.53 185.166 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 49.53 181.61 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 49.53 181.61 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "power" (at 49.53 181.61 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "DGND" (at 49.53 181.61 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "03880469-4199-4b96-b167-9d0cb3668d5e")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e" (reference "#PWR17") (unit 1))))) 
+
+(label "PWR_GATE" (at 101.6 57.15 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) hide) (uuid "51591c3d-2c75-4cfb-adec-d699f0162f01")) 
+
+(label "SW_POWER" (at 107.95 104.14 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) hide) (uuid "36e8133f-7a60-48f5-9f61-ef9f8bfb645f")) 
+
+(label "VIN_FUSED" (at 55.88 29.21 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) hide) (uuid "b39d7b44-a30a-494a-b35f-6e79524f954f")) 
+
+(junction (at 44.45 29.21) (diameter 0) (color 0 0 0 0) (uuid "d93b4adf-e4af-4bbc-90a0-7de4a5cf3808")) 
+
+(junction (at 67.31 30.48) (diameter 0) (color 0 0 0 0) (uuid "87b79450-2671-4336-9021-464d7c4ba479")) 
+
+(junction (at 101.6 58.42) (diameter 0) (color 0 0 0 0) (uuid "c374607b-25df-44bf-af28-b42ee15eb743")) 
+
+(junction (at 104.14 58.42) (diameter 0) (color 0 0 0 0) (uuid "345c7540-b836-449d-b599-b4461e1052e2")) 
+
+(junction (at 104.14 38.1) (diameter 0) (color 0 0 0 0) (uuid "b4f693f1-9b6a-4a01-86e6-1082d7b6ed30")) 
+
+(junction (at 101.6 48.26) (diameter 0) (color 0 0 0 0) (uuid "1cb4094d-38b3-4978-878f-6dee3e685097")) 
+
+(junction (at 118.11 48.26) (diameter 0) (color 0 0 0 0) (uuid "1b5decd5-7e7e-4c95-976e-090641fe66e6")) 
+
+(junction (at 127.0 48.26) (diameter 0) (color 0 0 0 0) (uuid "f0dfe88a-88ba-4dd3-99fa-15a427a30b78")) 
+
+(junction (at 80.01 85.09) (diameter 0) (color 0 0 0 0) (uuid "914fd758-b087-4eb0-a1f3-9366d914f84a")) 
+
+(junction (at 57.15 73.66) (diameter 0) (color 0 0 0 0) (uuid "dde6f0b3-df38-4c9a-a2b1-f2165218a896")) 
+
+(junction (at 39.37 83.82) (diameter 0) (color 0 0 0 0) (uuid "8c778386-62c8-45bd-8d50-35b46f7a806c")) 
+
+(junction (at 113.03 104.14) (diameter 0) (color 0 0 0 0) (uuid "99f2b938-3763-4e16-bada-c8b0be4e73c2")) 
+
+(junction (at 128.27 104.14) (diameter 0) (color 0 0 0 0) (uuid "319b773d-1884-4bb8-957f-e5e64a78c012")) 
+
+(junction (at 146.05 104.14) (diameter 0) (color 0 0 0 0) (uuid "42c967cd-ce26-498e-ae57-977e45b3b3e5")) 
+
+(junction (at 82.55 127.0) (diameter 0) (color 0 0 0 0) (uuid "dd72845f-6efd-43e8-a2af-ae809013456c")) 
+
+(junction (at 82.55 125.73) (diameter 0) (color 0 0 0 0) (uuid "985811ad-218c-47ef-88a4-15c56a332582")) 
+
+(junction (at 90.17 146.05) (diameter 0) (color 0 0 0 0) (uuid "35f8af63-5b71-4d43-a0ad-6019a18c3ce1")) 
+
+(junction (at 125.73 162.56) (diameter 0) (color 0 0 0 0) (uuid "1b036828-5094-4ba9-ad30-ef01834235fa")) 
+
+(junction (at 125.73 161.29) (diameter 0) (color 0 0 0 0) (uuid "6e700e7b-de4d-485b-b96f-2c8ebb07ac51")) 
+
+(junction (at 125.73 172.72) (diameter 0) (color 0 0 0 0) (uuid "98edc532-c25f-47c0-aab7-ad211b5abc22")) 
+
+(junction (at 85.09 46.99) (diameter 0) (color 0 0 0 0) (uuid "aa1f74bc-a09c-40c9-a6f8-a2a56237e805")) (no_connect (at 52.07 101.6) (uuid "e9836f5a-4019-4c1b-9f8c-941caf6beb5c")) (no_connect (at 52.07 106.68) (uuid "82820b6f-50c7-4387-b665-a30b7debe9c1")) (no_connect (at 52.07 111.76) (uuid "4f8c3782-9647-4bfc-baf1-94538b7b297f")) (no_connect (at 109.22 166.37) (uuid "c6455347-d2cb-4491-9d57-cbca06337ff9")) 
+
+(wire (pts 
+
+(xy 40.64 29.21) 
+
+(xy 44.45 29.21)) (stroke (width 0.254) (type default)) (uuid "bb66a888-a80c-4439-b10d-531ddbc1a1da")) 
+
+(wire (pts 
+
+(xy 44.45 29.21) 
+
+(xy 48.26 29.21)) (stroke (width 0.254) (type default)) (uuid "3185b04c-4b99-4605-9469-a6461f185688")) 
+
+(wire (pts 
+
+(xy 44.45 25.4) 
+
+(xy 44.45 29.21)) (stroke (width 0.254) (type default)) (uuid "b3a899d8-8c73-4c6c-b3fb-87abf3364346")) 
+
+(wire (pts 
+
+(xy 36.83 175.26) 
+
+(xy 36.83 181.61)) (stroke (width 0.254) (type default)) (uuid "8eaf2473-bcab-496f-afac-35dd1cf739d2")) 
+
+(wire (pts 
+
+(xy 36.83 175.26) 
+
+(xy 39.37 175.26)) (stroke (width 0.254) (type default)) (uuid "955b9337-54a4-4186-8e49-87c89e275f8c")) 
+
+(wire (pts 
+
+(xy 39.37 82.55) 
+
+(xy 39.37 83.82)) (stroke (width 0.254) (type default)) (uuid "09bdf171-5e18-487d-8d89-150436619287")) 
+
+(wire (pts 
+
+(xy 39.37 83.82) 
+
+(xy 39.37 85.09)) (stroke (width 0.254) (type default)) (uuid "9465cd1a-ecb7-49f3-85c8-615e2b48bf5c")) 
+
+(wire (pts 
+
+(xy 39.37 83.82) 
+
+(xy 59.69 83.82)) (stroke (width 0.254) (type default)) (uuid "ba8330b1-f19e-41f4-b60d-6079d8c5c6b3")) 
+
+(wire (pts 
+
+(xy 40.64 34.29) 
+
+(xy 44.45 34.29)) (stroke (width 0.254) (type default)) (uuid "6530551f-d6ff-4085-8d93-2bde611118dd")) 
+
+(wire (pts 
+
+(xy 44.45 34.29) 
+
+(xy 44.45 38.1)) (stroke (width 0.254) (type default)) (uuid "7a68aece-319c-4a16-a3da-02f415bad8ab")) 
+
+(wire (pts 
+
+(xy 59.69 82.55) 
+
+(xy 59.69 83.82)) (stroke (width 0.254) (type default)) (uuid "e36a49a6-c891-4648-a191-e3fe312a50fc")) 
+
+(wire (pts 
+
+(xy 77.47 125.73) 
+
+(xy 77.47 127.0)) (stroke (width 0.254) (type default)) (uuid "968dc5ee-46cd-4b5a-ade2-a17f28a84c76")) 
+
+(wire (pts 
+
+(xy 77.47 127.0) 
+
+(xy 82.55 127.0)) (stroke (width 0.254) (type default)) (uuid "6d42221d-5f42-4cd9-b126-82a818f5c5da")) 
+
+(wire (pts 
+
+(xy 80.01 129.54) 
+
+(xy 82.55 129.54)) (stroke (width 0.254) (type default)) (uuid "092ee766-c808-4c9f-90d3-42075d2daa16")) 
+
+(wire (pts 
+
+(xy 82.55 125.73) 
+
+(xy 82.55 127.0)) (stroke (width 0.254) (type default)) (uuid "dc34a543-53ea-47a0-ab65-695c8d962706")) 
+
+(wire (pts 
+
+(xy 82.55 127.0) 
+
+(xy 82.55 129.54)) (stroke (width 0.254) (type default)) (uuid "300cf281-638c-4bd7-a0d8-0995e4199610")) 
+
+(wire (pts 
+
+(xy 82.55 125.73) 
+
+(xy 113.03 125.73)) (stroke (width 0.254) (type default)) (uuid "98ec8d01-6572-400c-b2f8-76647e0fbdb2")) 
+
+(wire (pts 
+
+(xy 87.63 69.85) 
+
+(xy 87.63 72.39)) (stroke (width 0.254) (type default)) (uuid "f547b532-d07b-4c4c-88c5-708016232ffa")) 
+
+(wire (pts 
+
+(xy 113.03 121.92) 
+
+(xy 113.03 125.73)) (stroke (width 0.254) (type default)) (uuid "679e9674-db90-4cd4-8970-0f5900289d84")) 
+
+(wire (pts 
+
+(xy 137.16 57.15) 
+
+(xy 137.16 59.69)) (stroke (width 0.254) (type default)) (uuid "8f67dae7-16f5-4a5d-a570-9ca24eb42667")) 
+
+(wire (pts 
+
+(xy 146.05 115.57) 
+
+(xy 146.05 118.11)) (stroke (width 0.254) (type default)) (uuid "4012c0b6-6ce7-4b5b-a372-1f6b0c1eb584")) 
+
+(wire (pts 
+
+(xy 55.88 29.21) 
+
+(xy 55.88 30.48)) (stroke (width 0.254) (type default)) (uuid "9dcc9aa9-f81f-437a-8c89-d3b9fc2d238b")) 
+
+(wire (pts 
+
+(xy 55.88 30.48) 
+
+(xy 67.31 30.48)) (stroke (width 0.254) (type default)) (uuid "f13899cd-6b8f-4ba8-ad12-5d1920a7074f")) 
+
+(wire (pts 
+
+(xy 67.31 30.48) 
+
+(xy 68.58 30.48)) (stroke (width 0.254) (type default)) (uuid "be082dcc-65dc-4054-bf03-96c805ca63ce")) 
+
+(wire (pts 
+
+(xy 67.31 30.48) 
+
+(xy 67.31 46.99)) (stroke (width 0.254) (type default)) (uuid "368ab3e1-3681-4257-a49d-bacbd75cf381")) 
+
+(wire (pts 
+
+(xy 67.31 46.99) 
+
+(xy 68.58 46.99)) (stroke (width 0.254) (type default)) (uuid "365f0ba5-b986-4775-bab4-e2e59eccddc5")) 
+
+(wire (pts 
+
+(xy 39.37 73.66) 
+
+(xy 39.37 74.93)) (stroke (width 0.254) (type default)) (uuid "fef7b233-5f46-485b-b0c8-a9f71d199b91")) 
+
+(wire (pts 
+
+(xy 39.37 73.66) 
+
+(xy 57.15 73.66)) (stroke (width 0.254) (type default)) (uuid "9cc7cee2-4a33-4260-8ac5-1748da7feabe")) 
+
+(wire (pts 
+
+(xy 57.15 73.66) 
+
+(xy 57.15 85.09)) (stroke (width 0.254) (type default)) (uuid "fd7b3062-d2f2-490d-b29b-fa36ba33657b")) 
+
+(wire (pts 
+
+(xy 57.15 73.66) 
+
+(xy 59.69 73.66)) (stroke (width 0.254) (type default)) (uuid "26c00517-729e-4830-9260-98928444fad1")) 
+
+(wire (pts 
+
+(xy 57.15 85.09) 
+
+(xy 80.01 85.09)) (stroke (width 0.254) (type default)) (uuid "47d4e081-6d13-4ab5-a8f2-8f22d3c9dfb8")) 
+
+(wire (pts 
+
+(xy 59.69 73.66) 
+
+(xy 59.69 74.93)) (stroke (width 0.254) (type default)) (uuid "f23b554d-bba6-46c1-9187-05a3c5edd9fe")) 
+
+(wire (pts 
+
+(xy 80.01 85.09) 
+
+(xy 80.01 87.63)) (stroke (width 0.254) (type default)) (uuid "8677cf95-2a97-4a81-adf3-c8f979e28506")) 
+
+(wire (pts 
+
+(xy 83.82 30.48) 
+
+(xy 85.09 30.48)) (stroke (width 0.254) (type default)) (uuid "29bc695d-52f8-4229-9abf-4136ea3bcba6")) 
+
+(wire (pts 
+
+(xy 83.82 46.99) 
+
+(xy 85.09 46.99)) (stroke (width 0.254) (type default)) (uuid "dfeef37e-bcea-4ac3-b634-db8da9c28c95")) 
+
+(wire (pts 
+
+(xy 85.09 46.99) 
+
+(xy 101.6 46.99)) (stroke (width 0.254) (type default)) (uuid "e88874ea-321d-4731-994d-29506887038a")) 
+
+(wire (pts 
+
+(xy 85.09 30.48) 
+
+(xy 85.09 46.99)) (stroke (width 0.254) (type default)) (uuid "f7859dc9-5210-4c85-a3d0-43c98e453347")) 
+
+(wire (pts 
+
+(xy 101.6 46.99) 
+
+(xy 101.6 48.26)) (stroke (width 0.254) (type default)) (uuid "9512dcf0-7c1f-4dc7-9907-16baf7e76790")) 
+
+(wire (pts 
+
+(xy 101.6 48.26) 
+
+(xy 101.6 49.53)) (stroke (width 0.254) (type default)) (uuid "7a82e80f-d846-461d-9d88-31be2db26c8b")) 
+
+(wire (pts 
+
+(xy 101.6 48.26) 
+
+(xy 118.11 48.26)) (stroke (width 0.254) (type default)) (uuid "034261a1-43ca-432e-88e3-c25471840d76")) 
+
+(wire (pts 
+
+(xy 118.11 48.26) 
+
+(xy 118.11 49.53)) (stroke (width 0.254) (type default)) (uuid "dadb8ddf-467f-495b-87dd-a7894a807ca1")) 
+
+(wire (pts 
+
+(xy 118.11 48.26) 
+
+(xy 127.0 48.26)) (stroke (width 0.254) (type default)) (uuid "44d9980f-cc1c-4751-99f2-1c5ea36f40e1")) 
+
+(wire (pts 
+
+(xy 127.0 48.26) 
+
+(xy 137.16 48.26)) (stroke (width 0.254) (type default)) (uuid "eb145859-5238-4ed8-b5a7-dba314a5f35d")) 
+
+(wire (pts 
+
+(xy 127.0 44.45) 
+
+(xy 127.0 48.26)) (stroke (width 0.254) (type default)) (uuid "d31182a0-1403-4c1f-ad19-c5156df202e5")) 
+
+(wire (pts 
+
+(xy 137.16 48.26) 
+
+(xy 137.16 49.53)) (stroke (width 0.254) (type default)) (uuid "4bb2b909-e5a7-47ba-aa20-64a0badb5261")) 
+
+(wire (pts 
+
+(xy 76.2 22.86) 
+
+(xy 104.14 22.86)) (stroke (width 0.254) (type default)) (uuid "8ac77923-e991-4830-b235-cdb115e49073")) 
+
+(wire (pts 
+
+(xy 76.2 38.1) 
+
+(xy 76.2 39.37)) (stroke (width 0.254) (type default)) (uuid "2a67139d-86e3-4fdc-8b1d-f205928406cc")) 
+
+(wire (pts 
+
+(xy 76.2 38.1) 
+
+(xy 104.14 38.1)) (stroke (width 0.254) (type default)) (uuid "4bd79c9e-5eae-43ba-8658-472236831f35")) 
+
+(wire (pts 
+
+(xy 87.63 58.42) 
+
+(xy 87.63 62.23)) (stroke (width 0.254) (type default)) (uuid "e33479d0-7429-493d-81e9-ff47b9cade2b")) 
+
+(wire (pts 
+
+(xy 87.63 58.42) 
+
+(xy 101.6 58.42)) (stroke (width 0.254) (type default)) (uuid "78c3a7c4-999d-4bb7-92b8-5783b4b3e2a5")) 
+
+(wire (pts 
+
+(xy 101.6 57.15) 
+
+(xy 101.6 58.42)) (stroke (width 0.254) (type default)) (uuid "4136ed20-2350-44d5-b990-08afc5b13f9c")) 
+
+(wire (pts 
+
+(xy 101.6 58.42) 
+
+(xy 104.14 58.42)) (stroke (width 0.254) (type default)) (uuid "4b2ced42-0f68-4ad9-a87a-0a2ba60ec7ee")) 
+
+(wire (pts 
+
+(xy 104.14 58.42) 
+
+(xy 118.11 58.42)) (stroke (width 0.254) (type default)) (uuid "8abde83c-9c2f-4c50-8abe-ee8a6c03ab57")) 
+
+(wire (pts 
+
+(xy 104.14 22.86) 
+
+(xy 104.14 38.1)) (stroke (width 0.254) (type default)) (uuid "01fbc19f-209c-4088-9f72-b38d3f860b4e")) 
+
+(wire (pts 
+
+(xy 104.14 38.1) 
+
+(xy 104.14 58.42)) (stroke (width 0.254) (type default)) (uuid "7af4fe86-2dde-48e3-b737-f25f5c858c98")) 
+
+(wire (pts 
+
+(xy 118.11 57.15) 
+
+(xy 118.11 58.42)) (stroke (width 0.254) (type default)) (uuid "9de3f3f9-35ae-444a-bf1c-bd258c7d7c04")) 
+
+(wire (pts 
+
+(xy 107.95 104.14) 
+
+(xy 113.03 104.14)) (stroke (width 0.254) (type default)) (uuid "1a3af799-76cd-4d5a-86e0-03493a16f854")) 
+
+(wire (pts 
+
+(xy 113.03 104.14) 
+
+(xy 120.65 104.14)) (stroke (width 0.254) (type default)) (uuid "e42ba7bb-0e9c-430e-9ebb-da300d26960a")) 
+
+(wire (pts 
+
+(xy 113.03 104.14) 
+
+(xy 113.03 114.3)) (stroke (width 0.254) (type default)) (uuid "f3256b1f-7f39-46a2-bd68-871b3db472e7")) 
+
+(wire (pts 
+
+(xy 58.42 146.05) 
+
+(xy 58.42 147.32)) (stroke (width 0.254) (type default)) (uuid "7ed20a69-606b-41c2-ab2e-b1fd400f847d")) 
+
+(wire (pts 
+
+(xy 58.42 146.05) 
+
+(xy 90.17 146.05)) (stroke (width 0.254) (type default)) (uuid "0417e855-a962-4cf1-8067-55cb166e6baa")) 
+
+(wire (pts 
+
+(xy 90.17 142.24) 
+
+(xy 90.17 146.05)) (stroke (width 0.254) (type default)) (uuid "4544b984-95fc-4e26-97bb-0cfe649550a4")) 
+
+(wire (pts 
+
+(xy 107.95 109.22) 
+
+(xy 128.27 109.22)) (stroke (width 0.254) (type default)) (uuid "5702d8a4-3afb-4320-9d98-776fdffe8ead")) 
+
+(wire (pts 
+
+(xy 128.27 104.14) 
+
+(xy 128.27 109.22)) (stroke (width 0.254) (type default)) (uuid "e21e0d40-5243-4d5c-8ec7-7b1850580821")) 
+
+(wire (pts 
+
+(xy 128.27 104.14) 
+
+(xy 146.05 104.14)) (stroke (width 0.254) (type default)) (uuid "6b27a382-8b26-4ed0-990d-b18bdf35f9ae")) 
+
+(wire (pts 
+
+(xy 146.05 100.33) 
+
+(xy 146.05 104.14)) (stroke (width 0.254) (type default)) (uuid "b58e9c9b-d497-431e-b603-383002b51f01")) 
+
+(wire (pts 
+
+(xy 146.05 104.14) 
+
+(xy 146.05 107.95)) (stroke (width 0.254) (type default)) (uuid "4dd1c485-2df6-475a-9ea1-b281063629ba")) 
+
+(wire (pts 
+
+(xy 46.99 175.26) 
+
+(xy 49.53 175.26)) (stroke (width 0.254) (type default)) (uuid "f7b78ee4-050b-46dc-92f7-3f88d9922978")) 
+
+(wire (pts 
+
+(xy 49.53 175.26) 
+
+(xy 49.53 181.61)) (stroke (width 0.254) (type default)) (uuid "91abaccb-86c2-4c20-91d2-cc17db9150c8")) 
+
+(wire (pts 
+
+(xy 58.42 154.94) 
+
+(xy 58.42 157.48)) (stroke (width 0.254) (type default)) (uuid "c348d8e7-8aa8-48df-8b3a-3cddbcaf6055")) 
+
+(wire (pts 
+
+(xy 90.17 181.61) 
+
+(xy 90.17 184.15)) (stroke (width 0.254) (type default)) (uuid "fb47361f-d3cf-4091-826d-73b5e11b7980")) 
+
+(wire (pts 
+
+(xy 125.73 171.45) 
+
+(xy 125.73 172.72)) (stroke (width 0.254) (type default)) (uuid "56d33ec6-d273-4832-8ee8-4e222a38977a")) 
+
+(wire (pts 
+
+(xy 125.73 172.72) 
+
+(xy 125.73 173.99)) (stroke (width 0.254) (type default)) (uuid "c6d621cb-ef5a-4a44-8db3-2ded84b2ef51")) 
+
+(wire (pts 
+
+(xy 125.73 172.72) 
+
+(xy 151.13 172.72)) (stroke (width 0.254) (type default)) (uuid "fc9251c6-d67a-4400-9cb7-0c6eab2d0ccd")) 
+
+(wire (pts 
+
+(xy 151.13 171.45) 
+
+(xy 151.13 172.72)) (stroke (width 0.254) (type default)) (uuid "3d127070-d4a3-42bb-9e34-59cab1117a3f")) 
+
+(wire (pts 
+
+(xy 109.22 161.29) 
+
+(xy 125.73 161.29)) (stroke (width 0.254) (type default)) (uuid "e4f9ad88-751b-4c34-91e9-f2434a4c2580")) 
+
+(wire (pts 
+
+(xy 125.73 160.02) 
+
+(xy 125.73 161.29)) (stroke (width 0.254) (type default)) (uuid "dd36978d-7aa8-4699-b1c9-2861b0c6d73d")) 
+
+(wire (pts 
+
+(xy 125.73 161.29) 
+
+(xy 125.73 162.56)) (stroke (width 0.254) (type default)) (uuid "2e2d825e-00f3-4f06-a9fb-fe43ffbd6655")) 
+
+(wire (pts 
+
+(xy 125.73 162.56) 
+
+(xy 125.73 163.83)) (stroke (width 0.254) (type default)) (uuid "ef328be3-4f8c-4d72-b016-eb7293e433da")) 
+
+(wire (pts 
+
+(xy 125.73 162.56) 
+
+(xy 151.13 162.56)) (stroke (width 0.254) (type default)) (uuid "4cb2655f-6c30-4db0-ac9e-db85a502d73a")) 
+
+(wire (pts 
+
+(xy 151.13 162.56) 
+
+(xy 151.13 163.83)) (stroke (width 0.254) (type default)) (uuid "31fc839f-321c-4d64-853a-835862a61348")) 
+
+(symbol_instances (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e/4281548e-99b0-4fb5-9f43-901588303698" (reference "J1") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e/03d7d03e-e3d9-4def-a6e2-1c3808299d1d" (reference "F1") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e/89597105-cf9f-43ca-ac57-17f1e11b39e3" (reference "Q1") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e/0ee8dacc-012f-440e-bd08-d5493735b39d" (reference "Q2") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e/cc6d80a8-f2cf-4be2-8af0-c120b27a6d56" (reference "D1") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e/cce718ae-df82-481b-b51a-e6029c29a207" (reference "R2") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e/330e3892-33e4-4b86-9597-bf513d713309" (reference "R1") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e/122d2194-9226-4b00-a73d-e38e7a60ba10" (reference "D2") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e/41297ebc-5001-44fb-ba11-be080dd46957" (reference "U1") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e/1596bac8-95c2-454b-bc3f-41364eeedc16" (reference "C1") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e/942df2e8-44a1-494a-af60-7411390a1607" (reference "C4") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e/4d7d8aa2-a860-4161-8fb1-d554f6fc6ca1" (reference "L1") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e/5139ce6d-fdc8-4e81-b05f-26f6196ef48c" (reference "D3") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e/557b27ed-ff0e-4d4a-b519-94dc84dba617" (reference "C2") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e/5731ac26-52e6-49ea-83e0-3729dbff90a7" (reference "U2") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e/e711548b-c590-41f7-81a0-81947c7da688" (reference "C5") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e/5d5a4dd0-c943-4303-b6ad-1373157fb022" (reference "C3") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e/ba67f67a-b4fd-4702-83c4-907c63d29b38" (reference "C6") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e/877f3503-1e19-4db9-9868-c7726a9b7067" (reference "R3") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e/0d1d0732-28ec-4f45-862d-86343d4ebcc2" (reference "#PWR1") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e/cdaa3fab-5c8a-44ac-a2fa-43a0f36221b8" (reference "#PWR2") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e/67ead52e-6dc1-4caa-bde5-c06ce24baadd" (reference "#PWR3") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e/958d5488-f084-44ed-bf78-841bd17a416d" (reference "#PWR4") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e/ef23a969-9b3b-467e-b6be-8476a7413c5d" (reference "#PWR5") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e/0862f5b0-d229-4e2d-bbe8-488be8743cc8" (reference "#PWR6") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e/0137564b-d0c5-4d37-9e37-4f6ded81eb90" (reference "#PWR7") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e/0a01a501-fc6d-4eb5-bba2-bbf04a0a7bbe" (reference "#PWR8") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e/38187268-b29d-4ef1-a5c8-9547aa92e674" (reference "#PWR9") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e/f3d5b5d8-dac2-48ef-b435-4ff2341c9da1" (reference "#PWR10") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e/ea6d0697-1846-4f1a-92e2-c21808189582" (reference "#PWR11") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e/ec583a7c-4fc5-4b9c-886b-e8eb9012f89c" (reference "#PWR12") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e/e8a285c1-8437-42d0-bb1f-88db23b078a4" (reference "#PWR13") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e/f7762a23-74ba-41fd-acac-4845881cb1f7" (reference "#PWR14") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e/36a4b292-d059-4155-b19c-92e066c7ed64" (reference "#PWR15") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e/2a2d9120-4fb9-4a47-b2bd-1dd9018aa5f8" (reference "#PWR16") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/caea3101-53ed-4527-bf6a-3f8674ee844e/6f9ab88b-575e-4d97-a8cc-0fa34abe9151" (reference "#PWR17") (unit 1))))

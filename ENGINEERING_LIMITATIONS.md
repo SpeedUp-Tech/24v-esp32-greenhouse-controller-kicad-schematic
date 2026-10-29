@@ -1,19 +1,18 @@
-# Engineering Limitations
+# Engineering limitations — v0.2.0
 
-This repository contains a generated 24V ESP32 Greenhouse Controller schematic-stage draft for engineering review. It does not establish that the design is electrically correct, safe, compliant, production-ready, or suitable for fabrication.
+This is a schematic-stage draft for engineering review. Source files were preserved without circuit repairs. No firmware, simulation, bench, thermal, EMC, environmental, or production-validation evidence is supplied in this public package.
 
-## Project-specific review items
+## Checks performed on 2026-10-29
 
-- Confirm the real 24 V supply range, available current, reverse-polarity events, cable inductance, TVS energy, fuse coordination, MOSFET safe operating area, regulator thermal rise, and capacitor voltage derating.
-- Define the actual water pump, valve, nutrient pump, auxiliary, and lighting loads. Verify startup current, inductive energy, duty cycle, connector ratings, cable protection, flyback strategy, copper width, and fault behavior for each channel.
-- Select the lighting fuse only after the fixture input capacitance, inrush current, cable, connector, and switching method are known.
-- Verify the ESP32-S3 power, enable, reset, strapping pins, boot-state GPIO behavior, programming and recovery path, USB-C interface, and firmware safe states. Pumps, valves, and lights should remain off during reset, programming, brownout, and watchdog recovery.
-- Treat `EC_ANALOG_IN` as an input for an already conditioned signal; this project does not contain a complete conductivity excitation and measurement circuit.
-- Validate the pH probe interface for input bias current, leakage, contamination, guarding, shielding, cable motion, reference stability, filtering, calibration, and temperature compensation.
-- Prove that each ADS1115 input remains inside its permitted range while the ADC is powered from 3.3 V and portions of the analog front end use 5 V, including startup, sensor disconnection, and fault conditions.
-- Define the connection between `PGND`, `DGND`, and `AGND` based on the eventual PCB current paths and mixed-signal noise requirements.
-- Independently verify every symbol pin number, footprint assignment, package geometry, polarity, component rating, lifecycle, and source availability before PCB layout or procurement.
+- KiCad 10.0.5 exported all seven supplied schematic sheets successfully.
+- ERC with the supplied configuration: 13 errors and 94 warnings. The errors comprise 11 `power_pin_not_driven` and 2 `pin_not_driven` findings. Warnings comprise 93 `pin_to_pin` and 1 `no_connect_dangling` findings. Some checks are disabled in the supplied project configuration; these counts are not an exhaustive electrical validation.
+- CSV BOM: 52 grouped rows, 143 total reference quantities. The copied BOM and engineering files match the supplied source bytes.
+- The local source PCB contains 147 footprints, 1,262 track segments, 202 vias, and 25 zones. These counts indicate geometry is present, not successful routing, manufacturability, or electrical performance. A fresh PCB DRC attempt crashed in the installed KiCad executable; no new DRC pass is claimed. The PCB is not part of this public schematic package.
 
-## Outputs not included
+## Engineering review still required
 
-The public release does not include standalone symbol or footprint libraries, a completed PCB layout, board outline, routing, vias, copper zones, Gerbers, firmware, simulation, bench validation, environmental or ingress testing, EMC or safety testing, manufacturing documentation, or production engineering sign-off.
+Review symbol electrical types and pin assignments, unpowered-input ERC findings, float-switch interlock behavior, startup/reset states, eFuse fault behavior, inductive suppression, regulator stability, high-current connectors and copper, isolation spacing, pH transmitter compatibility, and all actual component ratings. Validate the target load currents and temperature range with the selected supply, loads, enclosure, and wiring.
+
+Firmware is required to implement scheduling, sequential dosing, persistent runtime accounting, recovery behavior, Modbus polling, and user controls. A hardware schematic does not establish those functions. The new pH interface expects an external RS-485 transmitter; it is not a raw-electrode input, and no built-in EC measurement is provided.
+
+Standalone library provenance remains unresolved and those assets are excluded. Embedded schematic symbols and footprint assignment strings must still be checked before fabrication. Legacy ESP32 limitations are preserved separately in `docs/ESP32-v0.1.1-ENGINEERING_LIMITATIONS.md`.

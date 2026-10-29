@@ -1,0 +1,823 @@
+(kicad_sch (version 20250114) (generator "SpeedUp AI") (generator_version "9.0") (uuid 9b042b6b-6bcd-4e7c-8dd3-a1f4488fdd5c) (paper "A4") (title_block (title "LEVEL") (date "2026-10-22") (rev "") (company "") (comment 1 "") (comment 2 "") (comment 3 "") (comment 4 "")) (lib_symbols 
+
+(symbol "Connectors:DB2ERC-3.5-2P-GN__LEVEL__J100" (pin_names (offset 1.016)) (in_bom yes) (on_board yes) 
+
+(property "Reference" "J" (id 0) (at -6.6802 7.62 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "DB2ERC-3.5-2P-GN" (id 1) (at -6.6802 -7.62 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:CONN-TH_2P-P3.50_DB2ERC-3.5-2P__b488f43f-e03c-5845-9abf-ed2c691d46a2" (id 2) (at -6.6802 -10.16 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at -6.6802 -12.7 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "DB2ERC-3.5-2P-GN__LEVEL__J100_0_1" 
+
+(polyline (pts 
+
+(xy -2.286 5.08) 
+
+(xy 2.286 5.08) 
+
+(xy 2.335553 5.075119) 
+
+(xy 2.383202 5.060665) 
+
+(xy 2.427115 5.037193) 
+
+(xy 2.465605 5.005605) 
+
+(xy 2.497193 4.967115) 
+
+(xy 2.520665 4.923202) 
+
+(xy 2.535119 4.875553) 
+
+(xy 2.54 4.826) 
+
+(xy 2.54 -4.826) 
+
+(xy 2.535119 -4.875553) 
+
+(xy 2.520665 -4.923202) 
+
+(xy 2.497193 -4.967115) 
+
+(xy 2.465605 -5.005605) 
+
+(xy 2.427115 -5.037193) 
+
+(xy 2.383202 -5.060665) 
+
+(xy 2.335553 -5.075119) 
+
+(xy 2.286 -5.08) 
+
+(xy -2.286 -5.08) 
+
+(xy -2.335553 -5.075119) 
+
+(xy -2.383202 -5.060665) 
+
+(xy -2.427115 -5.037193) 
+
+(xy -2.465605 -5.005605) 
+
+(xy -2.497193 -4.967115) 
+
+(xy -2.520665 -4.923202) 
+
+(xy -2.535119 -4.875553) 
+
+(xy -2.54 -4.826) 
+
+(xy -2.54 4.826) 
+
+(xy -2.535119 4.875553) 
+
+(xy -2.520665 4.923202) 
+
+(xy -2.497193 4.967115) 
+
+(xy -2.465605 5.005605) 
+
+(xy -2.427115 5.037193) 
+
+(xy -2.383202 5.060665) 
+
+(xy -2.335553 5.075119) 
+
+(xy -2.286 5.08)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type background))) (circle (center 1.016 2.54) (radius 0.381) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) (circle (center 1.016 -2.54) (radius 0.381) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "DB2ERC-3.5-2P-GN__LEVEL__J100_1_1" (pin unspecified line (at 6.35 2.54 180) (length 3.81) (name "1" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 6.35 -2.54 180) (length 3.81) (name "2" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "TVS_Fuse_Board_Level_Protection:PESD3V3U1UL__LEVEL__D100" (pin_names (offset 1.016)) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "D" (id 0) (at 6.73735 6.35 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "PESD3V3U1UL" (id 1) (at 6.73735 -6.35 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:SOD-882_L1.0-W0.6-RD__77d5f00b-8eee-5a0f-a3d0-98a4d4c0d351" (id 2) (at 6.73735 -8.89 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 6.73735 -11.43 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "PESD3V3U1UL__LEVEL__D100_0_1" 
+
+(polyline (pts 
+
+(xy 1.27 -1.27) 
+
+(xy -1.27 -1.27) 
+
+(xy 0.0 1.27) 
+
+(xy 1.27 -1.27)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 1.524 1.27) 
+
+(xy -1.524 1.27)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy 1.524 1.27) 
+
+(xy 2.286 0.508)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -1.524 1.27) 
+
+(xy -2.286 2.032)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "PESD3V3U1UL__LEVEL__D100_1_1" (pin unspecified line (at 0.0 -3.81 90) (length 2.54) (name "A" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))) (pin unspecified line (at 0.0 3.81 270) (length 2.54) (name "K" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Device:R__LEVEL__R100" (pin_names (offset 1.016) hide) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "R" (id 0) (at 0.0 7.7216 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "1k" (id 1) (at 0.0 -7.6327 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:R_0603_1608Metric__7dcfefe0-ebc6-5ebe-843f-53bc85ccac29" (id 2) (at 0.0 -10.1727 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 0.0 -12.7127 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "R__LEVEL__R100_0_1" 
+
+(polyline (pts 
+
+(xy -2.54 1.016) 
+
+(xy 2.54 1.016) 
+
+(xy 2.54 -1.016) 
+
+(xy -2.54 -1.016) 
+
+(xy -2.54 1.016)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type background)))) 
+
+(symbol "R__LEVEL__R100_1_1" (pin passive line (at -3.81 -0.0 0) (length 1.27) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 3.81 -0.0 180) (length 1.27) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Device:R__LEVEL__R101" (pin_names (offset 1.016) hide) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "R" (id 0) (at 3.5052 6.35 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "10k" (id 1) (at 3.5052 -6.35 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:R_0603_1608Metric__d7b1cfb9-6a49-5ed7-b152-795643ad820f" (id 2) (at 3.5052 -8.89 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 3.5052 -11.43 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "R__LEVEL__R101_0_1" 
+
+(polyline (pts 
+
+(xy -1.016 2.54) 
+
+(xy 1.016 2.54) 
+
+(xy 1.016 -2.54) 
+
+(xy -1.016 -2.54) 
+
+(xy -1.016 2.54)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type background)))) 
+
+(symbol "R__LEVEL__R101_1_1" (pin passive line (at 0.0 3.81 270) (length 1.27) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 0.0 -3.81 90) (length 1.27) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Device:C__LEVEL__C100" (pin_names (offset 1.016) hide) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "C" (id 0) (at 2.9972 6.35 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "100n" (id 1) (at 2.9972 -6.35 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:C_0603_1608Metric__d38eb59a-659e-556f-bbf6-4b5f9af875ef" (id 2) (at 2.9972 -8.89 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 2.9972 -11.43 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "C__LEVEL__C100_0_1" 
+
+(polyline (pts 
+
+(xy -2.032 0.762) 
+
+(xy 2.032 0.762)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -2.032 -0.762) 
+
+(xy 2.032 -0.762)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "C__LEVEL__C100_1_1" (pin passive line (at 0.0 3.81 270) (length 3.048) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 0.0 -3.81 90) (length 3.048) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Logic_ICs:SN74LVC1G14DBVR__LEVEL__U100" (pin_names (offset 1.016)) (in_bom yes) (on_board yes) 
+
+(property "Reference" "U" (id 0) (at 0.0 16.51 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "SN74LVC1G14DBVR" (id 1) (at 0.0 -16.51 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR__513d2b59-a887-5656-8a10-34bfd64eb61d" (id 2) (at 0.0 -19.05 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 0.0 -21.59 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "SN74LVC1G14DBVR__LEVEL__U100_0_1" 
+
+(polyline (pts 
+
+(xy -13.97 8.89) 
+
+(xy 13.97 8.89) 
+
+(xy 14.217765 8.865597) 
+
+(xy 14.456008 8.793327) 
+
+(xy 14.675574 8.675966) 
+
+(xy 14.868026 8.518026) 
+
+(xy 15.025966 8.325574) 
+
+(xy 15.143327 8.106008) 
+
+(xy 15.215597 7.867765) 
+
+(xy 15.24 7.62) 
+
+(xy 15.24 -7.62) 
+
+(xy 15.215597 -7.867765) 
+
+(xy 15.143327 -8.106008) 
+
+(xy 15.025966 -8.325574) 
+
+(xy 14.868026 -8.518026) 
+
+(xy 14.675574 -8.675966) 
+
+(xy 14.456008 -8.793327) 
+
+(xy 14.217765 -8.865597) 
+
+(xy 13.97 -8.89) 
+
+(xy -13.97 -8.89) 
+
+(xy -14.217765 -8.865597) 
+
+(xy -14.456008 -8.793327) 
+
+(xy -14.675574 -8.675966) 
+
+(xy -14.868026 -8.518026) 
+
+(xy -15.025966 -8.325574) 
+
+(xy -15.143327 -8.106008) 
+
+(xy -15.215597 -7.867765) 
+
+(xy -15.24 -7.62) 
+
+(xy -15.24 7.62) 
+
+(xy -15.215597 7.867765) 
+
+(xy -15.143327 8.106008) 
+
+(xy -15.025966 8.325574) 
+
+(xy -14.868026 8.518026) 
+
+(xy -14.675574 8.675966) 
+
+(xy -14.456008 8.793327) 
+
+(xy -14.217765 8.865597) 
+
+(xy -13.97 8.89)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type background))) (circle (center 0.0 7.366) (radius 0.381) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "SN74LVC1G14DBVR__LEVEL__U100_1_1" (pin unspecified line (at -20.32 -0.0 0) (length 5.08) (name "A" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))) (pin output line (at 20.32 2.54 180) (length 5.08) (name "Y" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27))))) (pin unconnected line (at 20.32 -2.54 180) (length 5.08) (name "N.C" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin power_in line (at 0.0 13.97 270) (length 5.08) (name "VCC" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27))))) (pin power_in line (at 0.0 -13.97 90) (length 5.08) (name "GND" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "Device:C__LEVEL__C101" (pin_names (offset 1.016) hide) (pin_numbers hide) (in_bom yes) (on_board yes) 
+
+(property "Reference" "C" (id 0) (at 2.9972 6.35 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "100n" (id 1) (at 2.9972 -6.35 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:C_0603_1608Metric__525770c0-7bbd-5efb-98a9-6623f4218010" (id 2) (at 2.9972 -8.89 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 2.9972 -11.43 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "C__LEVEL__C101_0_1" 
+
+(polyline (pts 
+
+(xy -2.032 0.762) 
+
+(xy 2.032 0.762)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -2.032 -0.762) 
+
+(xy 2.032 -0.762)) (stroke (width 0.254) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "C__LEVEL__C101_1_1" (pin passive line (at 0.0 3.81 270) (length 3.048) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 0.0 -3.81 90) (length 3.048) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "power:V3V3__1" (power) (pin_names (offset 0.0)) (pin_numbers hide) (in_bom no) (on_board no) 
+
+(property "Reference" "#PWR" (id 0) (at 0.0 4.318 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Value" "V3V3" (id 1) (at 0.0 -2.54 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (id 2) (at 0.0 -5.08 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 0.0 -7.62 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "V3V3__1_0_1" 
+
+(polyline (pts 
+
+(xy 0.0 -0.0) 
+
+(xy 0.0 1.778)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -1.016 1.778) 
+
+(xy 1.016 1.778)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "V3V3__1_1_1" (pin power_in line (at 0.0 0.0 90) (length 0.0) hide (name "V3V3" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "power:DGND__2" (power) (pin_names (offset 0.0)) (pin_numbers hide) (in_bom no) (on_board no) 
+
+(property "Reference" "#PWR" (id 0) (at 0.0 2.54 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Value" "DGND" (id 1) (at 0.0 -4.826 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (id 2) (at 0.0 -7.366 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 0.0 -9.906 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "DGND__2_0_1" 
+
+(polyline (pts 
+
+(xy 0.0 -0.0) 
+
+(xy 0.0 -1.27)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -1.27 -1.27) 
+
+(xy 1.27 -1.27)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -0.762 -1.778) 
+
+(xy 0.762 -1.778)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -0.381 -2.286) 
+
+(xy 0.381 -2.286)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "DGND__2_1_1" (pin power_in line (at 0.0 0.0 270) (length 0.0) hide (name "DGND" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "power:DGND__3" (power) (pin_names (offset 0.0)) (pin_numbers hide) (in_bom no) (on_board no) 
+
+(property "Reference" "#PWR" (id 0) (at 0.0 2.54 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Value" "DGND" (id 1) (at 0.0 -4.826 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (id 2) (at 0.0 -7.366 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 0.0 -9.906 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "DGND__3_0_1" 
+
+(polyline (pts 
+
+(xy 0.0 -0.0) 
+
+(xy 0.0 -1.27)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -1.27 -1.27) 
+
+(xy 1.27 -1.27)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -0.762 -1.778) 
+
+(xy 0.762 -1.778)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -0.381 -2.286) 
+
+(xy 0.381 -2.286)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "DGND__3_1_1" (pin power_in line (at 0.0 0.0 270) (length 0.0) hide (name "DGND" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))))) 
+
+(symbol "power:DGND__4" (power) (pin_names (offset 0.0)) (pin_numbers hide) (in_bom no) (on_board no) 
+
+(property "Reference" "#PWR" (id 0) (at 0.0 2.54 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Value" "DGND" (id 1) (at 0.0 -4.826 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (id 2) (at 0.0 -7.366 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(property "Datasheet" "" (id 3) (at 0.0 -9.906 0) (effects (font (size 1.27 1.27)) hide)) 
+
+(symbol "DGND__4_0_1" 
+
+(polyline (pts 
+
+(xy 0.0 -0.0) 
+
+(xy 0.0 -1.27)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -1.27 -1.27) 
+
+(xy 1.27 -1.27)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -0.762 -1.778) 
+
+(xy 0.762 -1.778)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none))) 
+
+(polyline (pts 
+
+(xy -0.381 -2.286) 
+
+(xy 0.381 -2.286)) (stroke (width 0.0) (type default) (color 0 0 0 0)) (fill (type none)))) 
+
+(symbol "DGND__4_1_1" (pin power_in line (at 0.0 0.0 270) (length 0.0) hide (name "DGND" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))))) 
+
+(symbol (lib_id "Connectors:DB2ERC-3.5-2P-GN__LEVEL__J100") (at 104.14 90.17 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "56fc6ad0-cb7d-4761-836c-45315c127d5b") 
+
+(property "Reference" "J100" (at 101.092 89.027 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "DB2ERC-3.5-2P-GN" (at 101.092 91.313 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:CONN-TH_2P-P3.50_DB2ERC-3.5-2P__b488f43f-e03c-5845-9abf-ed2c691d46a2" (at 104.14 90.17 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 104.14 90.17 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Connectors" (at 104.14 90.17 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "DB2ERC-3.5-2P-GN" (at 104.14 90.17 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_FOOTPRINT" "CONN-TH_2P-P3.50_DB2ERC-3.5-2P" (at 104.14 90.17 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_ID" "pcb:CONN-TH_2P-P3.50_DB2ERC-3.5-2P" (at 104.14 90.17 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "CONN-TH_2P-P3.50_DB2ERC-3.5-2P" (at 104.14 90.17 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_PIN_PAD_MAPPING" "{\"1\": [\"1\"], \"2\": [\"2\"]}" (at 104.14 90.17 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "2343cf93-4c83-4118-a552-fa74db457d78")) (pin "2" (uuid "d9b17ef6-e3fb-49bd-9880-804b2b91f624")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/5fd952a6-cab0-4f80-837f-acc3c0af4aa6" (reference "J100") (unit 1))))) 
+
+(symbol (lib_id "TVS_Fuse_Board_Level_Protection:PESD3V3U1UL__LEVEL__D100") (at 120.65 99.06 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "82bce727-5d92-48f0-b09f-a632f229e54f") 
+
+(property "Reference" "D100" (at 123.698 97.917 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "PESD3V3U1UL" (at 123.698 100.203 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:SOD-882_L1.0-W0.6-RD__77d5f00b-8eee-5a0f-a3d0-98a4d4c0d351" (at 120.65 99.06 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 120.65 99.06 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "TVS_Fuse_Board_Level_Protection" (at 120.65 99.06 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "PESD3V3U1UL" (at 120.65 99.06 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_FOOTPRINT" "SOD-882_L1.0-W0.6-RD" (at 120.65 99.06 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_ID" "pcb:SOD-882_L1.0-W0.6-RD" (at 120.65 99.06 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "SOD-882_L1.0-W0.6-RD" (at 120.65 99.06 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_PIN_PAD_MAPPING" "{\"1\": [\"1\"], \"2\": [\"2\"]}" (at 120.65 99.06 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "2" (uuid "3c9e3594-709c-4e6c-90f7-3672676348d9")) (pin "1" (uuid "2cdf1189-7b23-4c9d-a4ae-8de61a1045dc")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/5fd952a6-cab0-4f80-837f-acc3c0af4aa6" (reference "D100") (unit 1))))) 
+
+(symbol (lib_id "Device:R__LEVEL__R100") (at 132.08 87.63 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "24b2290c-0128-4b20-becf-49379594df3e") 
+
+(property "Reference" "R100" (at 132.08 83.693 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "1k" (at 132.08 91.567 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:R_0603_1608Metric__7dcfefe0-ebc6-5ebe-843f-53bc85ccac29" (at 132.08 87.63 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 132.08 87.63 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Device" (at 132.08 87.63 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "R" (at 132.08 87.63 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "R_0603_1608Metric" (at 132.08 87.63 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_PIN_PAD_MAPPING" "{\"1\": [\"1\"], \"2\": [\"2\"]}" (at 132.08 87.63 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "a8852db6-01ef-4371-a44f-7fde3bc87677")) (pin "2" (uuid "e029127a-392e-4bbc-a7a1-ef4823e0e71c")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/5fd952a6-cab0-4f80-837f-acc3c0af4aa6" (reference "R100") (unit 1))))) 
+
+(symbol (lib_id "Device:R__LEVEL__R101") (at 144.78 76.2 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "6cbc10b3-8462-470d-b75f-94e56c5b3a03") 
+
+(property "Reference" "R101" (at 147.828 75.057 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "10k" (at 147.828 77.343 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:R_0603_1608Metric__d7b1cfb9-6a49-5ed7-b152-795643ad820f" (at 144.78 76.2 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 144.78 76.2 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Device" (at 144.78 76.2 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "R" (at 144.78 76.2 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "R_0603_1608Metric" (at 144.78 76.2 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_PIN_PAD_MAPPING" "{\"1\": [\"1\"], \"2\": [\"2\"]}" (at 144.78 76.2 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "f1a7a29a-720f-4430-a9a7-df8735ad632d")) (pin "2" (uuid "eeab9be4-4d1d-4ca3-a7cc-ba4f533e1e58")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/5fd952a6-cab0-4f80-837f-acc3c0af4aa6" (reference "R101") (unit 1))))) 
+
+(symbol (lib_id "Device:C__LEVEL__C100") (at 144.78 99.06 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "0c6124e1-0a4c-4357-b052-7d8557cf4e54") 
+
+(property "Reference" "C100" (at 147.828 97.917 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "100n" (at 147.828 100.203 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:C_0603_1608Metric__d38eb59a-659e-556f-bbf6-4b5f9af875ef" (at 144.78 99.06 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 144.78 99.06 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Device" (at 144.78 99.06 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "C" (at 144.78 99.06 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "C_0603_1608Metric" (at 144.78 99.06 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_PIN_PAD_MAPPING" "{\"1\": [\"1\"], \"2\": [\"2\"]}" (at 144.78 99.06 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "285dea92-e6be-40fb-8fea-13bb40466879")) (pin "2" (uuid "4b95684f-6482-402f-bdcb-25038dca24ed")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/5fd952a6-cab0-4f80-837f-acc3c0af4aa6" (reference "C100") (unit 1))))) 
+
+(symbol (lib_id "Logic_ICs:SN74LVC1G14DBVR__LEVEL__U100") (at 173.99 87.63 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "93705063-326f-4659-86a8-508e95c97ae2") 
+
+(property "Reference" "U100" (at 173.99 85.7885 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "SN74LVC1G14DBVR" (at 173.99 89.4715 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR__513d2b59-a887-5656-8a10-34bfd64eb61d" (at 173.99 87.63 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 173.99 87.63 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Logic_ICs" (at 173.99 87.63 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "SN74LVC1G14DBVR" (at 173.99 87.63 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_FOOTPRINT" "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR" (at 173.99 87.63 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_ID" "pcb:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR" (at 173.99 87.63 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR" (at 173.99 87.63 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_PIN_PAD_MAPPING" "{\"1\": [\"1\"], \"2\": [\"2\"], \"3\": [\"3\"], \"4\": [\"4\"], \"5\": [\"5\"]}" (at 173.99 87.63 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "2" (uuid "049ffb2e-7b79-456e-b0ec-44e2eb24d8ce")) (pin "4" (uuid "6dc1c4d6-918a-4238-89ca-2ed2b6683601")) (pin "1" (uuid "b16c0c88-e05d-4407-a39e-a2494a7a412d")) (pin "5" (uuid "7bf1b075-103e-450a-bf12-dccd5d29b014")) (pin "3" (uuid "9af62bb3-35bb-431c-adfc-5deaa14ce37a")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/5fd952a6-cab0-4f80-837f-acc3c0af4aa6" (reference "U100") (unit 1))))) 
+
+(symbol (lib_id "Device:C__LEVEL__C101") (at 198.12 67.31 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (uuid "1288e67e-543c-44b7-a426-f5c79f6d6949") 
+
+(property "Reference" "C101" (at 201.168 66.167 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Value" "100n" (at 201.168 68.453 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "ProjectPCB:C_0603_1608Metric__525770c0-7bbd-5efb-98a9-6623f4218010" (at 198.12 67.31 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 198.12 67.31 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "Device" (at 198.12 67.31 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "C" (at 198.12 67.31 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_FOOTPRINT_NAME" "C_0603_1608Metric" (at 198.12 67.31 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_PIN_PAD_MAPPING" "{\"1\": [\"1\"], \"2\": [\"2\"]}" (at 198.12 67.31 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "9466b2e7-7603-4575-bebb-035bf0897cb1")) (pin "2" (uuid "55863ffd-aa79-4279-bccd-60e0c0bcace2")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/5fd952a6-cab0-4f80-837f-acc3c0af4aa6" (reference "C101") (unit 1))))) 
+
+(symbol (lib_id "power:V3V3__1") (at 144.78 69.85 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (fields_autoplaced yes) (uuid "d6dc56d0-8426-49db-90f2-9ae670d417c0") 
+
+(property "Reference" "#PWR59" (at 144.78 69.85 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Value" "V3V3" (at 144.78 67.056 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 144.78 69.85 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 144.78 69.85 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "power" (at 144.78 69.85 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "V3V3" (at 144.78 69.85 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "dd0bb797-d9a8-4269-bc35-07d9a50e0e87")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/5fd952a6-cab0-4f80-837f-acc3c0af4aa6" (reference "#PWR59") (unit 1))))) 
+
+(symbol (lib_id "power:DGND__2") (at 120.65 107.95 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (fields_autoplaced yes) (uuid "af8262e5-64d8-4988-a89b-94f205372e46") 
+
+(property "Reference" "#PWR60" (at 120.65 107.95 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Value" "DGND" (at 120.65 111.506 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 120.65 107.95 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 120.65 107.95 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "power" (at 120.65 107.95 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "DGND" (at 120.65 107.95 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "328a6237-41d4-4e19-9448-03dc13752aa8")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/5fd952a6-cab0-4f80-837f-acc3c0af4aa6" (reference "#PWR60") (unit 1))))) 
+
+(symbol (lib_id "power:DGND__3") (at 173.99 105.41 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (fields_autoplaced yes) (uuid "2460b82f-23f1-4b27-838b-347e2ae2d2fb") 
+
+(property "Reference" "#PWR61" (at 173.99 105.41 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Value" "DGND" (at 173.99 108.966 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 173.99 105.41 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 173.99 105.41 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "power" (at 173.99 105.41 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "DGND" (at 173.99 105.41 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "c49b3426-0601-4d3b-bb2e-6dabe1a60e72")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/5fd952a6-cab0-4f80-837f-acc3c0af4aa6" (reference "#PWR61") (unit 1))))) 
+
+(symbol (lib_id "power:DGND__4") (at 198.12 73.66 0) (unit 1) (exclude_from_sim no) (in_bom no) (on_board no) (dnp no) (fields_autoplaced yes) (uuid "000ed06a-00c1-402b-9cbc-22ffdb38c9f0") 
+
+(property "Reference" "#PWR62" (at 198.12 73.66 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Value" "DGND" (at 198.12 77.216 0) (effects (font (size 1.27 1.27)))) 
+
+(property "Footprint" "" (at 198.12 73.66 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "Datasheet" "" (at 198.12 73.66 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_LIBRARY" "power" (at 198.12 73.66 0) (effects (font (size 1.27 1.27)) (hide yes))) 
+
+(property "PCBGEN_ORIGINAL_SYMBOL" "DGND" (at 198.12 73.66 0) (effects (font (size 1.27 1.27)) (hide yes))) (pin "1" (uuid "e0d166c5-1032-4700-bbd9-1eb75b8e9142")) (instances (project "Smart_Greenhouse_Controller" (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/5fd952a6-cab0-4f80-837f-acc3c0af4aa6" (reference "#PWR62") (unit 1))))) (hierarchical_label "LEVEL_IN" (shape bidirectional) (at 116.84 83.82 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left)) (uuid "b7e77b71-0c72-480e-9aee-ec102141c407")) (hierarchical_label "LEVEL_GOOD" (shape bidirectional) (at 200.66 85.09 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left)) (uuid "f48588d1-3d8c-425c-b46f-d36d01fc31ca")) 
+
+(label "FLOAT_FILTER" (at 135.89 87.63 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) hide) (uuid "047228e9-7cb0-41ac-9ee8-ecbb112dd6e4")) 
+
+(junction (at 144.78 72.39) (diameter 0) (color 0 0 0 0) (uuid "9cf6c44d-286d-49fd-b534-22c2ed294333")) 
+
+(junction (at 173.99 72.39) (diameter 0) (color 0 0 0 0) (uuid "52581dc8-65c0-4eb3-a34d-4ead83abb568")) 
+
+(junction (at 120.65 87.63) (diameter 0) (color 0 0 0 0) (uuid "eb2a5ee8-0ffe-4a6f-8359-4e10808190b8")) 
+
+(junction (at 115.57 87.63) (diameter 0) (color 0 0 0 0) (uuid "8e5bf654-a7ca-4ed8-9930-4ba8e40ba13b")) 
+
+(junction (at 144.78 87.63) (diameter 0) (color 0 0 0 0) (uuid "ea336411-e429-4c75-b84d-f2da57136318")) 
+
+(junction (at 120.65 102.87) (diameter 0) (color 0 0 0 0) (uuid "77f369cc-9d8b-44e9-be5d-abca20c53a3c")) 
+
+(junction (at 120.65 104.14) (diameter 0) (color 0 0 0 0) (uuid "15128106-2bfb-4afb-b302-16a7cb20d088")) (no_connect (at 194.31 90.17) (uuid "bed2ac40-edb4-40dd-8bc4-556d00d3dd9d")) 
+
+(wire (pts 
+
+(xy 144.78 69.85) 
+
+(xy 144.78 72.39)) (stroke (width 0.254) (type default)) (uuid "0fb280c2-31ad-4e51-9623-3e31ecd0168e")) 
+
+(wire (pts 
+
+(xy 144.78 72.39) 
+
+(xy 173.99 72.39)) (stroke (width 0.254) (type default)) (uuid "eb940fa2-fa22-468c-aaf2-2ede9e844267")) 
+
+(wire (pts 
+
+(xy 173.99 63.5) 
+
+(xy 173.99 72.39)) (stroke (width 0.254) (type default)) (uuid "77cde097-dc5f-4938-b391-96db70b993b1")) 
+
+(wire (pts 
+
+(xy 173.99 63.5) 
+
+(xy 198.12 63.5)) (stroke (width 0.254) (type default)) (uuid "b34bd07b-f04b-45ea-880b-354c054789c8")) 
+
+(wire (pts 
+
+(xy 173.99 72.39) 
+
+(xy 173.99 73.66)) (stroke (width 0.254) (type default)) (uuid "20bca3af-5a43-43b5-a09d-6321962bbed3")) 
+
+(wire (pts 
+
+(xy 110.49 87.63) 
+
+(xy 115.57 87.63)) (stroke (width 0.254) (type default)) (uuid "429cf8ff-e7fd-4b7e-b6dd-37ea8d28aff3")) 
+
+(wire (pts 
+
+(xy 115.57 87.63) 
+
+(xy 120.65 87.63)) (stroke (width 0.254) (type default)) (uuid "95455785-c58e-49ed-aabd-a9c0f348f2a0")) 
+
+(wire (pts 
+
+(xy 120.65 87.63) 
+
+(xy 128.27 87.63)) (stroke (width 0.254) (type default)) (uuid "a367358e-c182-4b3b-b426-699080a6a896")) 
+
+(wire (pts 
+
+(xy 115.57 83.82) 
+
+(xy 115.57 87.63)) (stroke (width 0.254) (type default)) (uuid "769eb59d-9fe1-4236-9678-b85fd801afe3")) 
+
+(wire (pts 
+
+(xy 115.57 83.82) 
+
+(xy 116.84 83.82)) (stroke (width 0.254) (type default)) (uuid "27bf0b92-9173-41b2-992a-c498bf9a5e61")) 
+
+(wire (pts 
+
+(xy 120.65 87.63) 
+
+(xy 120.65 95.25)) (stroke (width 0.254) (type default)) (uuid "5df836c7-059d-40ce-87ce-1b7ffa9ac30c")) 
+
+(wire (pts 
+
+(xy 135.89 87.63) 
+
+(xy 144.78 87.63)) (stroke (width 0.254) (type default)) (uuid "c0790d1b-9bc1-407c-a010-9fefef6722dd")) 
+
+(wire (pts 
+
+(xy 144.78 87.63) 
+
+(xy 153.67 87.63)) (stroke (width 0.254) (type default)) (uuid "54c9ca92-2e70-48f6-8b43-c9d13c292cdd")) 
+
+(wire (pts 
+
+(xy 144.78 80.01) 
+
+(xy 144.78 87.63)) (stroke (width 0.254) (type default)) (uuid "d8f7282c-96d7-4365-a8bb-e9f1a05303f8")) 
+
+(wire (pts 
+
+(xy 144.78 87.63) 
+
+(xy 144.78 95.25)) (stroke (width 0.254) (type default)) (uuid "a2f55a12-96f5-40d0-948b-adf5647179c7")) 
+
+(wire (pts 
+
+(xy 110.49 92.71) 
+
+(xy 110.49 102.87)) (stroke (width 0.254) (type default)) (uuid "4f95a909-f6fb-47f6-8891-c5da963aa197")) 
+
+(wire (pts 
+
+(xy 110.49 102.87) 
+
+(xy 120.65 102.87)) (stroke (width 0.254) (type default)) (uuid "aa339433-3790-4daa-aa23-cc389b0da7a0")) 
+
+(wire (pts 
+
+(xy 120.65 102.87) 
+
+(xy 120.65 104.14)) (stroke (width 0.254) (type default)) (uuid "15b662c9-eca4-4d2e-905d-1ca025a226d1")) 
+
+(wire (pts 
+
+(xy 120.65 104.14) 
+
+(xy 120.65 107.95)) (stroke (width 0.254) (type default)) (uuid "dfeaa358-0a35-498e-a941-e9cae70d3ac7")) 
+
+(wire (pts 
+
+(xy 120.65 104.14) 
+
+(xy 144.78 104.14)) (stroke (width 0.254) (type default)) (uuid "b17fe321-d744-4b1d-8786-6554a0d2547a")) 
+
+(wire (pts 
+
+(xy 144.78 102.87) 
+
+(xy 144.78 104.14)) (stroke (width 0.254) (type default)) (uuid "88b4329b-9b8f-4ec8-8bc9-faedd2ffb4b8")) 
+
+(wire (pts 
+
+(xy 173.99 101.6) 
+
+(xy 173.99 105.41)) (stroke (width 0.254) (type default)) (uuid "e1ef9a8a-2849-4d74-8dd6-8e2b4e948c0c")) 
+
+(wire (pts 
+
+(xy 198.12 71.12) 
+
+(xy 198.12 73.66)) (stroke (width 0.254) (type default)) (uuid "eb70e29b-3390-467e-867c-420d2c03c673")) 
+
+(wire (pts 
+
+(xy 194.31 85.09) 
+
+(xy 200.66 85.09)) (stroke (width 0.254) (type default)) (uuid "7a8eb56d-c902-42a9-a23e-fe9097600588")) 
+
+(symbol_instances (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/5fd952a6-cab0-4f80-837f-acc3c0af4aa6/56fc6ad0-cb7d-4761-836c-45315c127d5b" (reference "J100") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/5fd952a6-cab0-4f80-837f-acc3c0af4aa6/82bce727-5d92-48f0-b09f-a632f229e54f" (reference "D100") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/5fd952a6-cab0-4f80-837f-acc3c0af4aa6/24b2290c-0128-4b20-becf-49379594df3e" (reference "R100") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/5fd952a6-cab0-4f80-837f-acc3c0af4aa6/6cbc10b3-8462-470d-b75f-94e56c5b3a03" (reference "R101") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/5fd952a6-cab0-4f80-837f-acc3c0af4aa6/0c6124e1-0a4c-4357-b052-7d8557cf4e54" (reference "C100") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/5fd952a6-cab0-4f80-837f-acc3c0af4aa6/93705063-326f-4659-86a8-508e95c97ae2" (reference "U100") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/5fd952a6-cab0-4f80-837f-acc3c0af4aa6/1288e67e-543c-44b7-a426-f5c79f6d6949" (reference "C101") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/5fd952a6-cab0-4f80-837f-acc3c0af4aa6/d6dc56d0-8426-49db-90f2-9ae670d417c0" (reference "#PWR59") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/5fd952a6-cab0-4f80-837f-acc3c0af4aa6/af8262e5-64d8-4988-a89b-94f205372e46" (reference "#PWR60") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/5fd952a6-cab0-4f80-837f-acc3c0af4aa6/2460b82f-23f1-4b27-838b-347e2ae2d2fb" (reference "#PWR61") (unit 1)) (path "/0ca47ba4-3a27-42db-98d4-7d7ff4fb212a/5fd952a6-cab0-4f80-837f-acc3c0af4aa6/000ed06a-00c1-402b-9cbc-22ffdb38c9f0" (reference "#PWR62") (unit 1))))
